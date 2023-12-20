@@ -1,7 +1,7 @@
-import '../styles/globals.css';
-import { Roboto } from 'next/font/google';
+import '@/styles/globals.scss';
+import { Roboto_Slab } from 'next/font/google';
 
-const roboto = Roboto({ weight: ['400'], subsets: ['latin'] });
+const roboto = Roboto_Slab({ weight: ['400', '700'], subsets: ['latin'] });
 
 function MyApp({ Component, pageProps }) {
 	return (
