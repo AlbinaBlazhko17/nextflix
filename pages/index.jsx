@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { Banner } from '@/components';
+import { Banner, NavBar } from '@/components';
 
 import styles from '../styles/Home.module.scss';
 
@@ -12,9 +12,7 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			{/* <main className={styles.main}> */}
-			<h1 className={styles.title}>Nextflix</h1>
-			{/* </main> */}
+			<NavBar username="albina@gmail.com" />
 			<Banner title="Title" subtitle="Subtitle" />
 		</div>
 	);
