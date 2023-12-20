@@ -4,5 +4,6 @@
 	"semi": true,
 	"singleQuote": true,
 	"trailingComma": "all",
-	"printWidth": 120
+	"printWidth": 120,
+	"react/jsx-max-props-per-line": [1, { "maximum": 2 }]
 }
