@@ -5,9 +5,9 @@ const roboto = Roboto({ weight: ['400'], subsets: ['latin'] });
 
 function MyApp({ Component, pageProps }) {
 	return (
-		<main className={roboto.className}>
+		<div className={roboto.className}>
 			<Component {...pageProps} />
-		</main>
+		</div>
 	);
 }
 
