@@ -9,7 +9,7 @@ const nextConfig = {
 		includePaths: [path.join(__dirname, 'styles')],
 	},
 	images: {
-		domains: ['images.unsplash.com'],
+		domains: ['images.unsplash.com', 'i.ytimg.com', 'yt3.ggpht.com'],
 	},
 };
 
@@ -21,6 +21,8 @@ module.exports = {
 			'@': path.resolve(__dirname),
 			'@/components': path.resolve(__dirname, 'components'),
 			'@/public': path.resolve(__dirname, 'public'),
+			'@/data': path.resolve(__dirname, 'data'),
+			'@/lib': path.resolve(__dirname, 'lib'),
 		};
 		return config;
 	},

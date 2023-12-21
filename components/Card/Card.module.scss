@@ -1,12 +1,12 @@
 .card {
-	margin-right: 0.25rem /* 4px */;
+	margin-right: 1.25rem /* 4px */;
 	cursor: pointer;
 	&-large {
 		position: relative;
-		width: 218px;
-		min-width: 218px;
-		height: 434px;
-		min-height: 434px;
+		width: 300px;
+		min-width: 300px;
+		height: 500px;
+		min-height: 500px;
 		img {
 			object-fit: cover;
 		}
@@ -14,18 +14,18 @@
 
 	&-medium {
 		position: relative;
-		width: 158px;
-		min-width: 158px;
-		height: 280px;
-		min-height: 280px;
+		width: 280px;
+		min-width: 280px;
+		height: 350px;
+		min-height: 350px;
 	}
 
 	&-small {
 		position: relative;
-		width: 300px;
-		min-width: 300px;
-		height: 170px;
-		min-height: 170px;
+		width: 400px;
+		min-width: 400px;
+		height: 250px;
+		min-height: 250px;
 	}
 
 	&__img {

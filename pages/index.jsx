@@ -1,11 +1,27 @@
-import Head from 'next/head';
 import { Banner, NavBar } from '@/components';
-import Card from '@/components/Card/Card';
-import BannerIcon from '@/public/static/banner.jpg';
+import SectionCards from '@/components/Card/sectionCards/SectionCards';
+import Head from 'next/head';
+import { getVideos } from '@/lib/videos';
 
 import styles from '../styles/Home.module.scss';
 
-export default function Home() {
+export async function getServerSideProps() {
+	const disneyVideos = await getVideos('disney trailer');
+	const productivityVideos = await getVideos('productivity');
+	const travelVideos = await getVideos('travel');
+	const popularVideos = await getVideos('popular');
+
+	return {
+		props: {
+			disneyVideos,
+			productivityVideos,
+			travelVideos,
+			popularVideos,
+		},
+	};
+}
+
+export default function Home({ disneyVideos, productivityVideos, travelVideos, popularVideos }) {
 	return (
 		<div className={styles.container}>
 			<Head>
@@ -25,16 +41,26 @@ export default function Home() {
 				title="Title"
 				subtitle="Subtitle"
 			/>
-			<Card
-				imgUrl={BannerIcon}
+			<SectionCards
+				videos={disneyVideos}
+				title="Disney"
 				size="large"
 			/>
-			<Card
-				imgUrl="/public/static/banner.svg"
+			<SectionCards
+				videos={travelVideos}
+				title="Travel"
+				size="small"
+			/>
+
+			<SectionCards
+				videos={productivityVideos}
+				title="Productivity"
 				size="medium"
 			/>
-			<Card
-				imgUrl={BannerIcon}
+
+			<SectionCards
+				videos={popularVideos}
+				title="Popular"
 				size="small"
 			/>
 		</div>

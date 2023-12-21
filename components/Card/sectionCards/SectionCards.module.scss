@@ -1,0 +1,22 @@
+@import '@/styles/scss/variables.scss';
+
+.section {
+	margin-top: 2rem;
+	color: $blue20;
+	padding-left: 4.5rem /* 16px */;
+	padding-right: 4.5rem /* 16px */;
+	&__title {
+		color: $white10;
+		font-weight: 700;
+		font-size: 2rem;
+	}
+	&__cards {
+		display: flex;
+		padding-top: 1.7rem;
+		padding-bottom: 1.5rem;
+		margin-top: 1.5rem /* 24px */;
+		margin-right: 0.75rem /* 12px */;
+		overflow-x: scroll;
+		overflow-y: hidden;
+	}
+}

@@ -5,7 +5,7 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: 'Roboto Slab', sans-serif;
-	background-color: var(--black40);
+	background-color: $black40;
 	color: white;
 	overflow-x: hidden;
 }
@@ -65,12 +65,3 @@ button {
 	color: var(--white10);
 }
 
-@media (prefers-color-scheme: dark) {
-	html {
-		color-scheme: dark;
-	}
-	body {
-		color: white;
-		background: black;
-	}
-}
