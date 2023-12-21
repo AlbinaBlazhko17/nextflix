@@ -4,11 +4,11 @@
 	color: $white10;
 	position: fixed;
 	top: 0px;
-	background: rgb(233,245,254);
-	background: linear-gradient(0deg, transparent 0%, rgba(0,0,0,0.727328431372549) 52%, rgba(0,0,0,1) 100%);
+	background: rgb(233, 245, 254);
+	background: linear-gradient(0deg, transparent 0%, rgba(0, 0, 0, 0.727328431372549) 52%, rgba(0, 0, 0, 1) 100%);
 	width: 100%;
 	z-index: 50;
-	overflow: hidden;
+	// overflow: hidden;
 	&__wrapper {
 		padding-left: 1rem /* 16px */;
 		padding-right: 1rem /* 16px */;
@@ -61,6 +61,7 @@
 	&__userBtn {
 		display: flex;
 		align-items: center;
+		justify-content: center;
 		overflow: hidden;
 		color: $white10;
 	}
@@ -69,19 +70,29 @@
 		font-size: 1rem;
 	}
 
+	&__expand {
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+
 	&__dropdown {
 		position: absolute;
-		margin-left: auto;
-		margin-top: 0.5rem /* 8px */;
-		padding-top: 0.5rem /* 8px */;
-		padding-bottom: 0.5rem /* 8px */;
-		padding-right: 0.5rem;
+		margin-left: 3.5rem;
+		// padding-top: 0.5rem /* 8px */;
+		// padding-bottom: 0.5rem /* 8px */;
+		// padding-right: 0.5rem;
 		background-color: $black50;
 		border-width: 1px;
 		color: $white10;
 		border-radius: 0.25rem /* 4px */;
 		border-color: $blue;
-		box-shadow: $shadow30, 0 0 #0000, $shadow, 0 0 #0000, $shadow30;
+		width: 5%;
+		box-shadow:
+			$shadow30,
+			0 0 #0000,
+			$shadow,
+			0 0 #0000,
+			$shadow30;
 	}
 
 	&__sign {
@@ -94,7 +105,9 @@
 		font-size: 1rem /* 16px */;
 		line-height: 1.25rem /* 20px */;
 		border-radius: 0.25rem /* 4px */;
+		padding-top: 0.5rem;
 		cursor: pointer;
+		text-align: center;
 		&:hover {
 			text-decoration: underline;
 		}

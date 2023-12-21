@@ -58,13 +58,13 @@
 		letter-spacing: 0.2rem;
 	}
 
-
-	&__title, &__subtitle {
+	&__title,
+	&__subtitle {
 		text-shadow: $shadow;
 	}
 
 	&__play {
-		display: flex; 
+		display: flex;
 		width: 100%;
 	}
 
@@ -86,7 +86,7 @@
 			background-color: $red10;
 			& .banner__playText {
 				color: $white10;
-			} 
+			}
 		}
 	}
 
