@@ -1,9 +1,11 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link';
+import { useState } from 'react';
 
 import styles from './NavBar.module.scss';
 
 function NavBar({ username }) {
+	const [showDropdown, setShowDropdown] = useState(false);
 	const router = useRouter();
 
 	function handleOnClickHome(e) {
@@ -14,6 +16,11 @@ function NavBar({ username }) {
 	function handleOnClickMyList(e) {
 		e.preventDefault();
 		router.push('/my-list');
+	}
+
+	function handleToogleDropdown(e) {
+		e.preventDefault();
+		setShowDropdown(!showDropdown);
 	}
 
 	return (
@@ -34,17 +41,19 @@ function NavBar({ username }) {
 				</ul>
 				<nav className={styles.navbar__nav}>
 					<div>
-						<button className={styles.navbar__userBtn}>
+						<button className={styles.navbar__userBtn} onClick={handleToogleDropdown}>
 							<p className={styles.navbar__username}>{username}</p>
 						</button>
-						<div className={styles.navbar__dropdown}>
-							<div>
-								<Link href="/login">
-									<a className={styles.navbar__sign}>Sign out</a>
-								</Link>
-								<div className={styles.navbar__line}></div>
+						{showDropdown && (
+							<div className={styles.navbar__dropdown}>
+								<div>
+									<Link href="/login">
+										<a className={styles.navbar__sign}>Sign out</a>
+									</Link>
+									<div className={styles.navbar__line}></div>
+								</div>
 							</div>
-						</div>
+						)}
 					</div>
 				</nav>
 			</div>
