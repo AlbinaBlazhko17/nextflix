@@ -1,32 +1,38 @@
 {
-    "env": {
-        "browser": true,
-        "es2021": true,
-        "node": true
-    },
-    "extends": [
-      "eslint:recommended",
-      "plugin:react/recommended",
-      "plugin:prettier/recommended" 
+	"env": {
+		"browser": true,
+		"es2021": true,
+		"node": true
+	},
+	"extends": ["eslint:recommended", "plugin:react/recommended", "plugin:prettier/recommended",
+  "plugin:react/recommended",
+  "plugin:react/jsx-runtime",
+  "plugin:react-hooks/recommended"],
+	"settings": {
+		"react": {
+			"version": "detect"
+		}
+	},
+	"parserOptions": {
+		"ecmaVersion": "latest",
+		"sourceType": "module"
+	},
+	"plugins": ["react", "react-hooks", "prettier"],
+	"rules": {
+		"react/prop-types": "off",
+		"react/react-in-jsx-scope": "off",
+		"prettier/prettier": ["error"],
+		"react/jsx-indent": [2, "tab"],
+		"react/jsx-indent-props": [2, "tab"],
+    "react/jsx-first-prop-new-line": [2, "multiline"],
+    "react/jsx-max-props-per-line": [
+      2,
+      { "maximum": 1, "when": "multiline" }
     ],
-    "settings": {
-        "react": {
-          "version": "detect"
-        }
-      },
-    "parserOptions": {
-      "ecmaVersion": "latest",
-      "sourceType": "module"
-    },
-    "plugins": [
-      "react",
-      "react-hooks",
-      "prettier" 
-    ],
-    "rules": {
-      "react/prop-types": "off", 
-      "react/react-in-jsx-scope": "off",
-      "prettier/prettier": "error"
-    }
-  }
-  
+    // "react/jsx-indent-props": [2, 2],
+    "react/jsx-closing-bracket-location": [
+      2,
+      "tag-aligned"
+    ]
+	}
+}
