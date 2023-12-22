@@ -7,27 +7,33 @@ import '@/styles/globals.scss';
 
 function MyApp({ Component, pageProps }) {
 	const router = useRouter();
-	const [isLoading, setIsLoading] = useState(true);
+	const [isLoading, setIsLoading] = useState(false);
 
 	useEffect(() => {
-		(async () => {
-			const isLoggedIn = await magic.user.isLoggedIn();
-			if (isLoggedIn) {
-				router.replace('/');
-			} else {
-				router.replace('/login');
-			}
-		})();
+		// (async () => {
+		// 	const isLoggedIn = await magic.user.isLoggedIn();
+		// 	if (isLoggedIn) {
+		// 		router.replace('/');
+		// 	} else {
+		// 		router.replace('/login');
+		// 	}
+		// })();
 	}, []);
 
 	useEffect(() => {
+		const handleStart = () => {
+			setIsLoading(true);
+		};
+
 		const handleComplete = () => {
 			setIsLoading(false);
 		};
 
+		router.events.on('routeChangeStart', handleStart);
 		router.events.on('routeChangeComplete', handleComplete);
 
 		return () => {
+			router.events.off('routeChangeStart', handleStart);
 			router.events.off('routeChangeComplete', handleComplete);
 		};
 	}, [router]);

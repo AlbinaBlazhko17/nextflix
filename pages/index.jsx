@@ -40,6 +40,7 @@ export default function Home({ disneyVideos, productivityVideos, travelVideos, p
 			<Banner
 				title="Title"
 				subtitle="Subtitle"
+				videoId="b9EkMc79ZSU"
 			/>
 			<SectionCards
 				videos={disneyVideos}
