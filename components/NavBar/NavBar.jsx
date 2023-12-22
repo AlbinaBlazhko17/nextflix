@@ -9,7 +9,7 @@ import styles from './NavBar.module.scss';
 
 function NavBar() {
 	const [showDropdown, setShowDropdown] = useState(false);
-	const [username, setUsername] = useState(localStorage.getItem('email') || '');
+	const [username, setUsername] = useState('');
 	const router = useRouter();
 
 	function handleOnClickHome(e) {

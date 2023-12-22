@@ -1,4 +1,5 @@
 import { Card } from '@/components';
+import Link from 'next/link';
 
 import styles from './SectionCards.module.scss';
 
@@ -8,12 +9,16 @@ function SectionCards({ title, videos = [], size = 'medium' }) {
 			<h2 className={styles.section__title}>{title}</h2>
 			<div className={styles.section__cards}>
 				{videos.map((video, index) => (
-					<Card
+					<Link
 						key={video.id}
-						imgUrl={video.imgUrl}
-						size={size}
-						id={index}
-					/>
+						href={`/video/${video.id}`}
+					>
+						<Card
+							imgUrl={video.imgUrl}
+							size={size}
+							id={index}
+						/>
+					</Link>
 				))}
 			</div>
 		</section>

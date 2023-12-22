@@ -1,12 +1,16 @@
 import NIcon from '@/public/static/Netflix_icon.png';
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 
 import styles from './Banner.module.scss';
 
-function Banner({ title, subtitle }) {
+function Banner({ title, subtitle, videoId }) {
+	const router = useRouter();
+
 	function handleOnPlay() {
-		console.log('Handle on play');
+		router.push(`/video/${videoId}`);
 	}
+
 	return (
 		<div className={styles.banner}>
 			<div className={styles.banner__leftWrapper}>

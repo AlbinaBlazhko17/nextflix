@@ -1,847 +1,855 @@
 {
+	"kind": "youtube#searchListResponse",
+	"etag": "fniLbMmdQggr_chSuy_r-1smO6o",
+	"nextPageToken": "CBkQAA",
+	"regionCode": "UA",
+	"pageInfo": {
+	  "totalResults": 1000000,
+	  "resultsPerPage": 25
+	},
 	"items": [
 	  {
 		"kind": "youtube#searchResult",
-		"etag": "XPHCMC23OLXJBwnEE4QDRPYhH_c",
+		"etag": "SZjMVFiOlriL0KQJvk3k7Cfb3TY",
 		"id": {
 		  "kind": "youtube#video",
-		  "videoId": "oyRxxpD3yNw"
+		  "videoId": "b9EkMc79ZSU"
 		},
 		"snippet": {
-		  "publishedAt": "2023-09-27T16:00:40Z",
-		  "channelId": "UC_976xMxPgzIa290Hqtk-9g",
-		  "title": "Wish | Official Trailer",
-		  "description": "Be careful what you wish for ⭐️ Watch the NEW trailer for Disney's #Wish, coming only to theaters this Thanksgiving. Revealed ...",
+		  "publishedAt": "2016-06-30T14:30:02Z",
+		  "channelId": "UCWOA1ZGywLbqmigxE4Qlvuw",
+		  "title": "Stranger Things | Official Final Trailer | Netflix",
+		  "description": "99 out of a hundred times, the missing kid is with a parent or relative. What about the other time? A love letter to the supernatural ...",
 		  "thumbnails": {
 			"default": {
-			  "url": "https://i.ytimg.com/vi/oyRxxpD3yNw/default.jpg",
+			  "url": "https://i.ytimg.com/vi/b9EkMc79ZSU/default.jpg",
 			  "width": 120,
 			  "height": 90
 			},
 			"medium": {
-			  "url": "https://i.ytimg.com/vi/oyRxxpD3yNw/mqdefault.jpg",
+			  "url": "https://i.ytimg.com/vi/b9EkMc79ZSU/mqdefault.jpg",
 			  "width": 320,
 			  "height": 180
 			},
 			"high": {
-			  "url": "https://i.ytimg.com/vi/oyRxxpD3yNw/hqdefault.jpg",
+			  "url": "https://i.ytimg.com/vi/b9EkMc79ZSU/hqdefault.jpg",
 			  "width": 480,
 			  "height": 360
 			}
 		  },
-		  "channelTitle": "Walt Disney Animation Studios",
+		  "channelTitle": "Netflix",
 		  "liveBroadcastContent": "none",
-		  "publishTime": "2023-09-27T16:00:40Z"
+		  "publishTime": "2016-06-30T14:30:02Z"
 		}
 	  },
 	  {
 		"kind": "youtube#searchResult",
-		"etag": "1Jrk2UsQIDEqRMqvoc-YWTwVe3U",
+		"etag": "jPtsYPcufFqFSNAuTzNKznsidHc",
 		"id": {
 		  "kind": "youtube#video",
-		  "videoId": "VWavstJydZU"
+		  "videoId": "bV0RAcuG2Ao"
 		},
 		"snippet": {
-		  "publishedAt": "2023-11-09T13:59:01Z",
-		  "channelId": "UC_IRYSp4auq7hKLvziWVH6w",
-		  "title": "Inside Out 2 | Teaser Trailer",
-		  "description": "Things are getting messy   Disney and Pixar's #InsideOut2 is coming to theaters June 2024 with brand new emotions! The little ...",
+		  "publishedAt": "2022-05-30T15:00:07Z",
+		  "channelId": "UCGie8GMlUo3kBKIopdvumVQ",
+		  "title": "Max’s Song (Full Scene) | Kate Bush - Running Up That Hill | Stranger Things | Netflix",
+		  "description": "It's true: 'Running Up That Hill' by Kate Bush can literally save the universe. Max's (Sadie Sink) battle with Vecna is a moment in ...",
 		  "thumbnails": {
 			"default": {
-			  "url": "https://i.ytimg.com/vi/VWavstJydZU/default.jpg",
+			  "url": "https://i.ytimg.com/vi/bV0RAcuG2Ao/default.jpg",
 			  "width": 120,
 			  "height": 90
 			},
 			"medium": {
-			  "url": "https://i.ytimg.com/vi/VWavstJydZU/mqdefault.jpg",
+			  "url": "https://i.ytimg.com/vi/bV0RAcuG2Ao/mqdefault.jpg",
 			  "width": 320,
 			  "height": 180
 			},
 			"high": {
-			  "url": "https://i.ytimg.com/vi/VWavstJydZU/hqdefault.jpg",
+			  "url": "https://i.ytimg.com/vi/bV0RAcuG2Ao/hqdefault.jpg",
 			  "width": 480,
 			  "height": 360
 			}
 		  },
-		  "channelTitle": "Pixar",
+		  "channelTitle": "Still Watching Netflix",
 		  "liveBroadcastContent": "none",
-		  "publishTime": "2023-11-09T13:59:01Z"
+		  "publishTime": "2022-05-30T15:00:07Z"
 		}
 	  },
 	  {
 		"kind": "youtube#searchResult",
-		"etag": "UPAgFMgEn3ZcB__z79WZP3xkb8M",
+		"etag": "HBcJiQ0KXcqndSj2nF7XqSC19CY",
 		"id": {
 		  "kind": "youtube#video",
-		  "videoId": "JuQrVla3TTk"
+		  "videoId": "S-7Jldc-has"
 		},
 		"snippet": {
-		  "publishedAt": "2023-09-21T16:01:00Z",
-		  "channelId": "UC_976xMxPgzIa290Hqtk-9g",
-		  "title": "Once Upon a Studio | Official Trailer | Disney+",
-		  "description": "100 years of stories. 100 years of magic. ✨ Once Upon A Studio, a new Original short film, premieres is now streaming on ...",
+		  "publishedAt": "2023-12-16T15:30:06Z",
+		  "channelId": "UCGA2OgjW608QEaGwxA7aRTg",
+		  "title": "STRANGER THINGS Season 5 – Vol.1 Teaser Trailer (2024) Netflix (HD)",
+		  "description": "StrangerThings5 #StrangerThings #Netflix Take a look at our 'Vol.1 Teaser Trailer' concept for Netflix's STRANGER THINGS ...",
 		  "thumbnails": {
 			"default": {
-			  "url": "https://i.ytimg.com/vi/JuQrVla3TTk/default.jpg",
+			  "url": "https://i.ytimg.com/vi/S-7Jldc-has/default.jpg",
 			  "width": 120,
 			  "height": 90
 			},
 			"medium": {
-			  "url": "https://i.ytimg.com/vi/JuQrVla3TTk/mqdefault.jpg",
+			  "url": "https://i.ytimg.com/vi/S-7Jldc-has/mqdefault.jpg",
 			  "width": 320,
 			  "height": 180
 			},
 			"high": {
-			  "url": "https://i.ytimg.com/vi/JuQrVla3TTk/hqdefault.jpg",
+			  "url": "https://i.ytimg.com/vi/S-7Jldc-has/hqdefault.jpg",
 			  "width": 480,
 			  "height": 360
 			}
 		  },
-		  "channelTitle": "Walt Disney Animation Studios",
+		  "channelTitle": "Screen Culture",
 		  "liveBroadcastContent": "none",
-		  "publishTime": "2023-09-21T16:01:00Z"
+		  "publishTime": "2023-12-16T15:30:06Z"
 		}
 	  },
 	  {
 		"kind": "youtube#searchResult",
-		"etag": "f7xURtrSWUfvhzM9hk4p2XUZako",
+		"etag": "ZJTKVx5vovx0IKcCCUXIwc3pE0Y",
 		"id": {
 		  "kind": "youtube#video",
-		  "videoId": "ctlz0R1tSZE"
+		  "videoId": "IzRGy4dvJpA"
 		},
 		"snippet": {
-		  "publishedAt": "2023-04-27T12:41:06Z",
-		  "channelId": "UC_976xMxPgzIa290Hqtk-9g",
-		  "title": "Disney&#39;s Wish | Official Teaser Trailer",
-		  "description": "Check out the new trailer, plus a poster and new image for Walt Disney Animation Studios' “Wish,” which opens exclusively in ...",
+		  "publishedAt": "2022-05-31T00:03:20Z",
+		  "channelId": "UC9vdTR3kS-U4sRTw-syuJ5w",
+		  "title": "Kate Bush - Running Up That Hill (HQ Audio Remastered) Stranger Things S4",
+		  "description": "A little bit of nostalgia... I am sorry but you won't find this particular version anywhere but here. This is a version I made myself.",
 		  "thumbnails": {
 			"default": {
-			  "url": "https://i.ytimg.com/vi/ctlz0R1tSZE/default.jpg",
+			  "url": "https://i.ytimg.com/vi/IzRGy4dvJpA/default.jpg",
 			  "width": 120,
 			  "height": 90
 			},
 			"medium": {
-			  "url": "https://i.ytimg.com/vi/ctlz0R1tSZE/mqdefault.jpg",
+			  "url": "https://i.ytimg.com/vi/IzRGy4dvJpA/mqdefault.jpg",
 			  "width": 320,
 			  "height": 180
 			},
 			"high": {
-			  "url": "https://i.ytimg.com/vi/ctlz0R1tSZE/hqdefault.jpg",
+			  "url": "https://i.ytimg.com/vi/IzRGy4dvJpA/hqdefault.jpg",
 			  "width": 480,
 			  "height": 360
 			}
 		  },
-		  "channelTitle": "Walt Disney Animation Studios",
+		  "channelTitle": "The ReMaster",
 		  "liveBroadcastContent": "none",
-		  "publishTime": "2023-04-27T12:41:06Z"
+		  "publishTime": "2022-05-31T00:03:20Z"
 		}
 	  },
 	  {
 		"kind": "youtube#searchResult",
-		"etag": "E6-XNbk8hPoqIrSTSZ-CeH9P1ts",
+		"etag": "bEh7DjZ8WeLb0Pv-TmGAeQnN3DU",
 		"id": {
 		  "kind": "youtube#video",
-		  "videoId": "2w_K3CB8PuE"
+		  "videoId": "3ChgRbqGi-E"
 		},
 		"snippet": {
-		  "publishedAt": "2023-06-13T15:55:08Z",
-		  "channelId": "UC_IRYSp4auq7hKLvziWVH6w",
-		  "title": "Elio | Teaser Trailer",
-		  "description": "An out-of-this-world teaser trailer for Disney and Pixar's 28th feature film, “Elio,” are now available. Additions to the voice cast ...",
+		  "publishedAt": "2018-01-24T08:00:01Z",
+		  "channelId": "UCYpVqLSvfseUqb2URAkexlw",
+		  "title": "Kygo - Stranger Things ft. OneRepublic (Official Video)",
+		  "description": "Stranger Things - Kygo feat. OneRepublic | Official music video EP: Luga Podesta & Brandon Bonfiglio Producer: Jamee Ranta, ...",
 		  "thumbnails": {
 			"default": {
-			  "url": "https://i.ytimg.com/vi/2w_K3CB8PuE/default.jpg",
+			  "url": "https://i.ytimg.com/vi/3ChgRbqGi-E/default.jpg",
 			  "width": 120,
 			  "height": 90
 			},
 			"medium": {
-			  "url": "https://i.ytimg.com/vi/2w_K3CB8PuE/mqdefault.jpg",
+			  "url": "https://i.ytimg.com/vi/3ChgRbqGi-E/mqdefault.jpg",
 			  "width": 320,
 			  "height": 180
 			},
 			"high": {
-			  "url": "https://i.ytimg.com/vi/2w_K3CB8PuE/hqdefault.jpg",
+			  "url": "https://i.ytimg.com/vi/3ChgRbqGi-E/hqdefault.jpg",
 			  "width": 480,
 			  "height": 360
 			}
 		  },
-		  "channelTitle": "Pixar",
+		  "channelTitle": "KygoOfficialVEVO",
 		  "liveBroadcastContent": "none",
-		  "publishTime": "2023-06-13T15:55:08Z"
+		  "publishTime": "2018-01-24T08:00:01Z"
 		}
 	  },
 	  {
 		"kind": "youtube#searchResult",
-		"etag": "vIkjggmHlCABxIQblNUKPGCxY5I",
+		"etag": "5coMyiH8sqDjdzbb3RYcu17Fu08",
 		"id": {
 		  "kind": "youtube#video",
-		  "videoId": "uHb7au6Gmls"
+		  "videoId": "O5HQ1sZseKg"
 		},
 		"snippet": {
-		  "publishedAt": "2023-11-16T14:00:33Z",
-		  "channelId": "UCIrgJInjLS2BhlHOMDW7v0g",
-		  "title": "Percy Jackson and The Olympians | Official Trailer | Disney+",
-		  "description": "Percy Jackson & The Olympians tells the fantastical story of a 12-year-old modern demigod, Percy Jackson, who's just coming to ...",
+		  "publishedAt": "2019-07-09T11:12:38Z",
+		  "channelId": "UCGie8GMlUo3kBKIopdvumVQ",
+		  "title": "The Full Dustin and Suzie NeverEnding Story Scene | Stranger Things S3",
+		  "description": "The amazing Dustin and Suzie NeverEnding Story scene from Stranger Things S3 in full. SUBSCRIBE: http://bit.ly/29kBByr About ...",
 		  "thumbnails": {
 			"default": {
-			  "url": "https://i.ytimg.com/vi/uHb7au6Gmls/default.jpg",
+			  "url": "https://i.ytimg.com/vi/O5HQ1sZseKg/default.jpg",
 			  "width": 120,
 			  "height": 90
 			},
 			"medium": {
-			  "url": "https://i.ytimg.com/vi/uHb7au6Gmls/mqdefault.jpg",
+			  "url": "https://i.ytimg.com/vi/O5HQ1sZseKg/mqdefault.jpg",
 			  "width": 320,
 			  "height": 180
 			},
 			"high": {
-			  "url": "https://i.ytimg.com/vi/uHb7au6Gmls/hqdefault.jpg",
+			  "url": "https://i.ytimg.com/vi/O5HQ1sZseKg/hqdefault.jpg",
 			  "width": 480,
 			  "height": 360
 			}
 		  },
-		  "channelTitle": "Disney Plus",
+		  "channelTitle": "Still Watching Netflix",
 		  "liveBroadcastContent": "none",
-		  "publishTime": "2023-11-16T14:00:33Z"
+		  "publishTime": "2019-07-09T11:12:38Z"
 		}
 	  },
 	  {
 		"kind": "youtube#searchResult",
-		"etag": "rR3rYUAgnHyCAtCRYV4aZ66D454",
+		"etag": "5va7EnbtG5jrTtyUdMWeZeKw5Ws",
 		"id": {
 		  "kind": "youtube#video",
-		  "videoId": "H58Etl9NRpQ"
+		  "videoId": "8BICSi4XsMU"
 		},
 		"snippet": {
-		  "publishedAt": "2023-09-27T16:13:45Z",
-		  "channelId": "UCi8e0iOVk1fEOogdfu4YgfA",
-		  "title": "Wish Trailer #1 (2023)",
-		  "description": "Check out the official Wish trailer starring Alan Tudyk and Ariana DeBose! ▻ Buy Tickets on Fandango: ...",
+		  "publishedAt": "2023-10-25T15:30:05Z",
+		  "channelId": "UCGA2OgjW608QEaGwxA7aRTg",
+		  "title": "STRANGER THINGS Season 5 – Vol.1 Teaser Trailer (2024) Netflix",
+		  "description": "StrangerThings5 #StrangerThings #Netflix Take a look at our 'Vol.1 Teaser Trailer' concept for Netflix's STRANGER THINGS ...",
 		  "thumbnails": {
 			"default": {
-			  "url": "https://i.ytimg.com/vi/H58Etl9NRpQ/default.jpg",
+			  "url": "https://i.ytimg.com/vi/8BICSi4XsMU/default.jpg",
 			  "width": 120,
 			  "height": 90
 			},
 			"medium": {
-			  "url": "https://i.ytimg.com/vi/H58Etl9NRpQ/mqdefault.jpg",
+			  "url": "https://i.ytimg.com/vi/8BICSi4XsMU/mqdefault.jpg",
 			  "width": 320,
 			  "height": 180
 			},
 			"high": {
-			  "url": "https://i.ytimg.com/vi/H58Etl9NRpQ/hqdefault.jpg",
+			  "url": "https://i.ytimg.com/vi/8BICSi4XsMU/hqdefault.jpg",
 			  "width": 480,
 			  "height": 360
 			}
 		  },
-		  "channelTitle": "Rotten Tomatoes Trailers",
+		  "channelTitle": "Screen Culture",
 		  "liveBroadcastContent": "none",
-		  "publishTime": "2023-09-27T16:13:45Z"
+		  "publishTime": "2023-10-25T15:30:05Z"
 		}
 	  },
 	  {
 		"kind": "youtube#searchResult",
-		"etag": "984hk-hV86Jp-zZhKE7uiNWgGh0",
+		"etag": "SFSwfnb_h8eJP-pqy7TiWXTAs_Q",
 		"id": {
 		  "kind": "youtube#video",
-		  "videoId": "RUrYwDkCATE"
+		  "videoId": "9JtvfL1mvm0"
 		},
 		"snippet": {
-		  "publishedAt": "2023-11-09T14:13:07Z",
-		  "channelId": "UCQphRgAhj5UxktrQNP3WF5g",
-		  "title": "Inside Out 2 | Teaser Trailer | Disney UK",
-		  "description": "Things are getting messy   Disney and Pixar's #InsideOut2 is coming to cinemas June 2024 with brand new emotions! The little ...",
+		  "publishedAt": "2019-11-07T00:00:00Z",
+		  "channelId": "UChmpTxQ0Gp8KEJKsqzeg9Lg",
+		  "title": "Stranger Things Season 1 Bloopers | Netflix",
+		  "description": "Bloopers are here. We repeat, Stranger Things BLOOPERS. ARE. HERE. Watch Season 1 bloopers now! Watch Stranger Things ...",
 		  "thumbnails": {
 			"default": {
-			  "url": "https://i.ytimg.com/vi/RUrYwDkCATE/default.jpg",
+			  "url": "https://i.ytimg.com/vi/9JtvfL1mvm0/default.jpg",
 			  "width": 120,
 			  "height": 90
 			},
 			"medium": {
-			  "url": "https://i.ytimg.com/vi/RUrYwDkCATE/mqdefault.jpg",
+			  "url": "https://i.ytimg.com/vi/9JtvfL1mvm0/mqdefault.jpg",
 			  "width": 320,
 			  "height": 180
 			},
 			"high": {
-			  "url": "https://i.ytimg.com/vi/RUrYwDkCATE/hqdefault.jpg",
+			  "url": "https://i.ytimg.com/vi/9JtvfL1mvm0/hqdefault.jpg",
 			  "width": 480,
 			  "height": 360
 			}
 		  },
-		  "channelTitle": "Disney UK",
+		  "channelTitle": "Stranger Things",
 		  "liveBroadcastContent": "none",
-		  "publishTime": "2023-11-09T14:13:07Z"
+		  "publishTime": "2019-11-07T00:00:00Z"
 		}
 	  },
 	  {
 		"kind": "youtube#searchResult",
-		"etag": "AcAelmmhejMXZXBS1xA8d8-2mq8",
+		"etag": "UZE79QdrUnwdvzHnJC4eBm4FPG8",
 		"id": {
 		  "kind": "youtube#video",
-		  "videoId": "5XtM0fuhyeA"
+		  "videoId": "7Xcv3s_7XFI"
 		},
 		"snippet": {
-		  "publishedAt": "2023-09-21T17:16:01Z",
-		  "channelId": "UCWJ5MfdQZ6jXbF5gYuSAf5Q",
-		  "title": "Once Upon a Studio - Official Trailer (2023) Disney 100th Anniversary Short Film",
-		  "description": "Check out the trailer for Once Upon a Studio, an upcoming new original short film premiering on ABC during “The Wonderful ...",
+		  "publishedAt": "2019-06-15T03:47:46Z",
+		  "channelId": "UC8-Th83bH_thdKZDJCrn88g",
+		  "title": "The Stranger Things Cast Teaches Jimmy the &quot;Chicken Noodle Soup&quot; Song",
+		  "description": "Millie Bobby Brown, Finn Wolfhard, Gaten Matarazzo, Caleb McLaughlin, Noah Schnapp and Sadie Sink dish on bonding over ...",
 		  "thumbnails": {
 			"default": {
-			  "url": "https://i.ytimg.com/vi/5XtM0fuhyeA/default.jpg",
+			  "url": "https://i.ytimg.com/vi/7Xcv3s_7XFI/default.jpg",
 			  "width": 120,
 			  "height": 90
 			},
 			"medium": {
-			  "url": "https://i.ytimg.com/vi/5XtM0fuhyeA/mqdefault.jpg",
+			  "url": "https://i.ytimg.com/vi/7Xcv3s_7XFI/mqdefault.jpg",
 			  "width": 320,
 			  "height": 180
 			},
 			"high": {
-			  "url": "https://i.ytimg.com/vi/5XtM0fuhyeA/hqdefault.jpg",
+			  "url": "https://i.ytimg.com/vi/7Xcv3s_7XFI/hqdefault.jpg",
 			  "width": 480,
 			  "height": 360
 			}
 		  },
-		  "channelTitle": "IGN Movie Trailers",
+		  "channelTitle": "The Tonight Show Starring Jimmy Fallon",
 		  "liveBroadcastContent": "none",
-		  "publishTime": "2023-09-21T17:16:01Z"
+		  "publishTime": "2019-06-15T03:47:46Z"
 		}
 	  },
 	  {
 		"kind": "youtube#searchResult",
-		"etag": "37noeiqA1NxXBgkGG_Rgj2qg7G4",
+		"etag": "yfz2dIhgoUmUv5MaeGdhpDoauvY",
 		"id": {
 		  "kind": "youtube#video",
-		  "videoId": "FwckoFEPxxM"
+		  "videoId": "jVstl7Efgqs"
 		},
 		"snippet": {
-		  "publishedAt": "2023-05-16T10:02:38Z",
-		  "channelId": "UCBH4HCPqGYZ0Yr6peYP0yag",
-		  "title": "Wish | Teaser Trailer",
-		  "description": "Immaginate un posto dove i sogni si avverano... Guardate il trailer di #Wish, il nuovo film Disney arriverà al cinema il 21 ...",
+		  "publishedAt": "2019-11-06T21:00:05Z",
+		  "channelId": "UChmpTxQ0Gp8KEJKsqzeg9Lg",
+		  "title": "Stranger Things Season 2 Bloopers | Netflix",
+		  "description": "(Bl)oops, we did it again. Watch Stranger Things Season 2 bloopers now. Watch Stranger Things, Only on Netflix: ...",
 		  "thumbnails": {
 			"default": {
-			  "url": "https://i.ytimg.com/vi/FwckoFEPxxM/default.jpg",
+			  "url": "https://i.ytimg.com/vi/jVstl7Efgqs/default.jpg",
 			  "width": 120,
 			  "height": 90
 			},
 			"medium": {
-			  "url": "https://i.ytimg.com/vi/FwckoFEPxxM/mqdefault.jpg",
+			  "url": "https://i.ytimg.com/vi/jVstl7Efgqs/mqdefault.jpg",
 			  "width": 320,
 			  "height": 180
 			},
 			"high": {
-			  "url": "https://i.ytimg.com/vi/FwckoFEPxxM/hqdefault.jpg",
+			  "url": "https://i.ytimg.com/vi/jVstl7Efgqs/hqdefault.jpg",
 			  "width": 480,
 			  "height": 360
 			}
 		  },
-		  "channelTitle": "Disney IT",
+		  "channelTitle": "Stranger Things",
 		  "liveBroadcastContent": "none",
-		  "publishTime": "2023-05-16T10:02:38Z"
+		  "publishTime": "2019-11-06T21:00:05Z"
 		}
 	  },
 	  {
 		"kind": "youtube#searchResult",
-		"etag": "mLGdhypZDxSzIzJzwps1NszGye0",
-		"id": {
-		  "kind": "youtube#video",
-		  "videoId": "x-Zcg8rWAPo"
-		},
-		"snippet": {
-		  "publishedAt": "2023-06-13T16:41:20Z",
-		  "channelId": "UCWJ5MfdQZ6jXbF5gYuSAf5Q",
-		  "title": "Disney and Pixar&#39;s Elio - Official Teaser Trailer (2023) America Ferrera, Jameela Jamil",
-		  "description": "Check out the teaser trailer for Disney and Pixar's Elio, an upcoming movie starring America Ferrera, Yonas Kibreab, Jameela ...",
-		  "thumbnails": {
-			"default": {
-			  "url": "https://i.ytimg.com/vi/x-Zcg8rWAPo/default.jpg",
-			  "width": 120,
-			  "height": 90
-			},
-			"medium": {
-			  "url": "https://i.ytimg.com/vi/x-Zcg8rWAPo/mqdefault.jpg",
-			  "width": 320,
-			  "height": 180
-			},
-			"high": {
-			  "url": "https://i.ytimg.com/vi/x-Zcg8rWAPo/hqdefault.jpg",
-			  "width": 480,
-			  "height": 360
-			}
-		  },
-		  "channelTitle": "IGN Movie Trailers",
-		  "liveBroadcastContent": "none",
-		  "publishTime": "2023-06-13T16:41:20Z"
-		}
-	  },
-	  {
-		"kind": "youtube#searchResult",
-		"etag": "0JEPjKs9pZSXWvwOnQAZvofJa8A",
-		"id": {
-		  "kind": "youtube#video",
-		  "videoId": "X7E_8PQER_U"
-		},
-		"snippet": {
-		  "publishedAt": "2023-11-16T15:05:21Z",
-		  "channelId": "UCApaSzvP6jM9rfs8UbcqD1g",
-		  "title": "Percy Jackson e os Olimpianos | Trailer Oficial Dublado | Disney+",
-		  "description": "Clique em Inscreva-se e fique por dentro das novidades do Disney+ Site oficial: http://dis.la/6002GcGXw #DisneyPlus Siga o ...",
-		  "thumbnails": {
-			"default": {
-			  "url": "https://i.ytimg.com/vi/X7E_8PQER_U/default.jpg",
-			  "width": 120,
-			  "height": 90
-			},
-			"medium": {
-			  "url": "https://i.ytimg.com/vi/X7E_8PQER_U/mqdefault.jpg",
-			  "width": 320,
-			  "height": 180
-			},
-			"high": {
-			  "url": "https://i.ytimg.com/vi/X7E_8PQER_U/hqdefault.jpg",
-			  "width": 480,
-			  "height": 360
-			}
-		  },
-		  "channelTitle": "Disney+ Brasil",
-		  "liveBroadcastContent": "none",
-		  "publishTime": "2023-11-16T15:05:21Z"
-		}
-	  },
-	  {
-		"kind": "youtube#searchResult",
-		"etag": "VIwZvK5w5slgYMTbOqClJJ0d5GI",
-		"id": {
-		  "kind": "youtube#video",
-		  "videoId": "oNCi0ejFPC4"
-		},
-		"snippet": {
-		  "publishedAt": "2023-09-27T16:48:35Z",
-		  "channelId": "UCP6nJ-Elnfnpjv6HQRsv1Cw",
-		  "title": "Wish: O Poder dos Desejos | Trailer Oficial Dublado",
-		  "description": "Cuidado com o que você deseja. ⭐️ Confira o novo trailer de #Wish: O Poder dos Desejos, que chega aos cinemas em 4 de ...",
-		  "thumbnails": {
-			"default": {
-			  "url": "https://i.ytimg.com/vi/oNCi0ejFPC4/default.jpg",
-			  "width": 120,
-			  "height": 90
-			},
-			"medium": {
-			  "url": "https://i.ytimg.com/vi/oNCi0ejFPC4/mqdefault.jpg",
-			  "width": 320,
-			  "height": 180
-			},
-			"high": {
-			  "url": "https://i.ytimg.com/vi/oNCi0ejFPC4/hqdefault.jpg",
-			  "width": 480,
-			  "height": 360
-			}
-		  },
-		  "channelTitle": "Walt Disney Studios BR",
-		  "liveBroadcastContent": "none",
-		  "publishTime": "2023-09-27T16:48:35Z"
-		}
-	  },
-	  {
-		"kind": "youtube#searchResult",
-		"etag": "JOypZoZl55DHKDWoBv6Ru4q9vP4",
-		"id": {
-		  "kind": "youtube#video",
-		  "videoId": "ebo1jNfIgA4"
-		},
-		"snippet": {
-		  "publishedAt": "2023-11-09T14:41:16Z",
-		  "channelId": "UCP6nJ-Elnfnpjv6HQRsv1Cw",
-		  "title": "Divertida Mente 2 | Teaser Trailer Oficial Dublado",
-		  "description": "O filme para sentir TUDO. #DivertidaMente2, da Disney e Pixar, nos cinemas em 2024.",
-		  "thumbnails": {
-			"default": {
-			  "url": "https://i.ytimg.com/vi/ebo1jNfIgA4/default.jpg",
-			  "width": 120,
-			  "height": 90
-			},
-			"medium": {
-			  "url": "https://i.ytimg.com/vi/ebo1jNfIgA4/mqdefault.jpg",
-			  "width": 320,
-			  "height": 180
-			},
-			"high": {
-			  "url": "https://i.ytimg.com/vi/ebo1jNfIgA4/hqdefault.jpg",
-			  "width": 480,
-			  "height": 360
-			}
-		  },
-		  "channelTitle": "Walt Disney Studios BR",
-		  "liveBroadcastContent": "none",
-		  "publishTime": "2023-11-09T14:41:16Z"
-		}
-	  },
-	  {
-		"kind": "youtube#searchResult",
-		"etag": "OkelLf94dFBIutRzAIa1yZvIceE",
-		"id": {
-		  "kind": "youtube#video",
-		  "videoId": "z0PscW9ZOR8"
-		},
-		"snippet": {
-		  "publishedAt": "2023-09-21T16:11:12Z",
-		  "channelId": "UCLRlryMfL8ffxzrtqv0_k_w",
-		  "title": "Once Upon a Studio Trailer (2023)",
-		  "description": "Official Once Upon a Studio Movie Trailer 2023 | Subscribe ➤ https://abo.yt/ki | Burny Mattinson Movie Trailer | Release TBA ...",
-		  "thumbnails": {
-			"default": {
-			  "url": "https://i.ytimg.com/vi/z0PscW9ZOR8/default.jpg",
-			  "width": 120,
-			  "height": 90
-			},
-			"medium": {
-			  "url": "https://i.ytimg.com/vi/z0PscW9ZOR8/mqdefault.jpg",
-			  "width": 320,
-			  "height": 180
-			},
-			"high": {
-			  "url": "https://i.ytimg.com/vi/z0PscW9ZOR8/hqdefault.jpg",
-			  "width": 480,
-			  "height": 360
-			}
-		  },
-		  "channelTitle": "KinoCheck.com",
-		  "liveBroadcastContent": "none",
-		  "publishTime": "2023-09-21T16:11:12Z"
-		}
-	  },
-	  {
-		"kind": "youtube#searchResult",
-		"etag": "cdHfMo8zZD2OrQn-LENQH4jRUEA",
-		"id": {
-		  "kind": "youtube#video",
-		  "videoId": "wXMX6mhvQ-Y"
-		},
-		"snippet": {
-		  "publishedAt": "2023-04-27T13:49:56Z",
-		  "channelId": "UCWJ5MfdQZ6jXbF5gYuSAf5Q",
-		  "title": "Disney&#39;s Wish - Official Teaser Trailer (2023) Ariana DeBose, Chris Pine, Alan Tudyk",
-		  "description": "Check out the teaser trailer for Wish, an upcoming musical-comedy movie featuring the voices of Ariana DeBose as Asha, Chris ...",
-		  "thumbnails": {
-			"default": {
-			  "url": "https://i.ytimg.com/vi/wXMX6mhvQ-Y/default.jpg",
-			  "width": 120,
-			  "height": 90
-			},
-			"medium": {
-			  "url": "https://i.ytimg.com/vi/wXMX6mhvQ-Y/mqdefault.jpg",
-			  "width": 320,
-			  "height": 180
-			},
-			"high": {
-			  "url": "https://i.ytimg.com/vi/wXMX6mhvQ-Y/hqdefault.jpg",
-			  "width": 480,
-			  "height": 360
-			}
-		  },
-		  "channelTitle": "IGN Movie Trailers",
-		  "liveBroadcastContent": "none",
-		  "publishTime": "2023-04-27T13:49:56Z"
-		}
-	  },
-	  {
-		"kind": "youtube#searchResult",
-		"etag": "Q2vBrOnvIbIJWxMfEc_GI63QtEY",
-		"id": {
-		  "kind": "youtube#video",
-		  "videoId": "dfEof0W5ObE"
-		},
-		"snippet": {
-		  "publishedAt": "2023-06-13T16:25:32Z",
-		  "channelId": "UCQphRgAhj5UxktrQNP3WF5g",
-		  "title": "Teaser Trailer | Elio | Disney UK",
-		  "description": "An out-of-this-world teaser trailer for Disney and Pixar's 28th feature film, “Elio,” are now available. Additions to the voice cast ...",
-		  "thumbnails": {
-			"default": {
-			  "url": "https://i.ytimg.com/vi/dfEof0W5ObE/default.jpg",
-			  "width": 120,
-			  "height": 90
-			},
-			"medium": {
-			  "url": "https://i.ytimg.com/vi/dfEof0W5ObE/mqdefault.jpg",
-			  "width": 320,
-			  "height": 180
-			},
-			"high": {
-			  "url": "https://i.ytimg.com/vi/dfEof0W5ObE/hqdefault.jpg",
-			  "width": 480,
-			  "height": 360
-			}
-		  },
-		  "channelTitle": "Disney UK",
-		  "liveBroadcastContent": "none",
-		  "publishTime": "2023-06-13T16:25:32Z"
-		}
-	  },
-	  {
-		"kind": "youtube#searchResult",
-		"etag": "l9A-XtiaE1v-L22dYd7MiWo2mJI",
-		"id": {
-		  "kind": "youtube#video",
-		  "videoId": "X_1bTkyaHmg"
-		},
-		"snippet": {
-		  "publishedAt": "2023-11-16T17:34:36Z",
-		  "channelId": "UCQphRgAhj5UxktrQNP3WF5g",
-		  "title": "Percy Jackson and The Olympians | Official Trailer | Disney UK",
-		  "description": "Excited for this ⚡️   Watch the #PercyJackson trailer now, and stream the two-episode premiere 20th December on Disney+ ...",
-		  "thumbnails": {
-			"default": {
-			  "url": "https://i.ytimg.com/vi/X_1bTkyaHmg/default.jpg",
-			  "width": 120,
-			  "height": 90
-			},
-			"medium": {
-			  "url": "https://i.ytimg.com/vi/X_1bTkyaHmg/mqdefault.jpg",
-			  "width": 320,
-			  "height": 180
-			},
-			"high": {
-			  "url": "https://i.ytimg.com/vi/X_1bTkyaHmg/hqdefault.jpg",
-			  "width": 480,
-			  "height": 360
-			}
-		  },
-		  "channelTitle": "Disney UK",
-		  "liveBroadcastContent": "none",
-		  "publishTime": "2023-11-16T17:34:36Z"
-		}
-	  },
-	  {
-		"kind": "youtube#searchResult",
-		"etag": "FMhvBogIJ4Q9azvYrFY_WAml2kQ",
-		"id": {
-		  "kind": "youtube#video",
-		  "videoId": "U_ENaaZYIaE"
-		},
-		"snippet": {
-		  "publishedAt": "2023-09-27T16:44:24Z",
-		  "channelId": "UCBH4HCPqGYZ0Yr6peYP0yag",
-		  "title": "Wish | Trailer Ufficiale",
-		  "description": "Fa' attenzione a ciò che desideri ⭐️ Guarda il NUOVO trailer di #Wish, dal 21 Dicembre al cinema. Seguici anche su Facebook: ...",
-		  "thumbnails": {
-			"default": {
-			  "url": "https://i.ytimg.com/vi/U_ENaaZYIaE/default.jpg",
-			  "width": 120,
-			  "height": 90
-			},
-			"medium": {
-			  "url": "https://i.ytimg.com/vi/U_ENaaZYIaE/mqdefault.jpg",
-			  "width": 320,
-			  "height": 180
-			},
-			"high": {
-			  "url": "https://i.ytimg.com/vi/U_ENaaZYIaE/hqdefault.jpg",
-			  "width": 480,
-			  "height": 360
-			}
-		  },
-		  "channelTitle": "Disney IT",
-		  "liveBroadcastContent": "none",
-		  "publishTime": "2023-09-27T16:44:24Z"
-		}
-	  },
-	  {
-		"kind": "youtube#searchResult",
-		"etag": "h2G1YhqnhCKbf7Ez7T-2zs1MLDQ",
-		"id": {
-		  "kind": "youtube#video",
-		  "videoId": "TLQdvCiQ3wQ"
-		},
-		"snippet": {
-		  "publishedAt": "2023-11-09T14:36:57Z",
-		  "channelId": "UCBH4HCPqGYZ0Yr6peYP0yag",
-		  "title": "Inside Out 2 | Teaser Trailer",
-		  "description": "Ci scusiamo per il disagio. La pubertà è un caos #InsideOut2, di Disney e Pixar, arriverà nei cinema nel 2024 con emozioni ...",
-		  "thumbnails": {
-			"default": {
-			  "url": "https://i.ytimg.com/vi/TLQdvCiQ3wQ/default.jpg",
-			  "width": 120,
-			  "height": 90
-			},
-			"medium": {
-			  "url": "https://i.ytimg.com/vi/TLQdvCiQ3wQ/mqdefault.jpg",
-			  "width": 320,
-			  "height": 180
-			},
-			"high": {
-			  "url": "https://i.ytimg.com/vi/TLQdvCiQ3wQ/hqdefault.jpg",
-			  "width": 480,
-			  "height": 360
-			}
-		  },
-		  "channelTitle": "Disney IT",
-		  "liveBroadcastContent": "none",
-		  "publishTime": "2023-11-09T14:36:57Z"
-		}
-	  },
-	  {
-		"kind": "youtube#searchResult",
-		"etag": "7r56S7zsr3YkRbkWeGgf3N9V8RU",
+		"etag": "FVYXy01vqiGNPQJHwjn9kL1sxss",
 		"id": {
 		  "kind": "youtube#channel",
-		  "channelId": "UCuaFvcY4MhZY3U43mMt1dYQ"
+		  "channelId": "UChmpTxQ0Gp8KEJKsqzeg9Lg"
 		},
 		"snippet": {
-		  "publishedAt": "2008-11-18T20:34:44Z",
-		  "channelId": "UCuaFvcY4MhZY3U43mMt1dYQ",
-		  "title": "Walt Disney Studios",
-		  "description": "Watch all of the latest trailers, clips, and videos from upcoming Disney movies! At The Walt Disney Company, we are committed to ...",
+		  "publishedAt": "2019-06-19T17:03:11Z",
+		  "channelId": "UChmpTxQ0Gp8KEJKsqzeg9Lg",
+		  "title": "Stranger Things",
+		  "description": "Every ending has a beginning. Vol. 1 is coming May 27. Vol. 2 is coming July 1.",
 		  "thumbnails": {
 			"default": {
-			  "url": "https://yt3.ggpht.com/sNKFW-7nE3eO7l1AtJr4sBU6qGwzb601Ibu1a2k3SBMlarOJrlpu5NgHRgcr1FK2_pS-jxaX=s88-c-k-c0xffffffff-no-rj-mo"
+			  "url": "https://yt3.ggpht.com/ytc/AIf8zZS_2ZEDWUG0ypZhFp824YmME4BDNc-BT0w8YGu-=s88-c-k-c0xffffffff-no-rj-mo"
 			},
 			"medium": {
-			  "url": "https://yt3.ggpht.com/sNKFW-7nE3eO7l1AtJr4sBU6qGwzb601Ibu1a2k3SBMlarOJrlpu5NgHRgcr1FK2_pS-jxaX=s240-c-k-c0xffffffff-no-rj-mo"
+			  "url": "https://yt3.ggpht.com/ytc/AIf8zZS_2ZEDWUG0ypZhFp824YmME4BDNc-BT0w8YGu-=s240-c-k-c0xffffffff-no-rj-mo"
 			},
 			"high": {
-			  "url": "https://yt3.ggpht.com/sNKFW-7nE3eO7l1AtJr4sBU6qGwzb601Ibu1a2k3SBMlarOJrlpu5NgHRgcr1FK2_pS-jxaX=s800-c-k-c0xffffffff-no-rj-mo"
+			  "url": "https://yt3.ggpht.com/ytc/AIf8zZS_2ZEDWUG0ypZhFp824YmME4BDNc-BT0w8YGu-=s800-c-k-c0xffffffff-no-rj-mo"
 			}
 		  },
-		  "channelTitle": "Walt Disney Studios",
-		  "liveBroadcastContent": "upcoming",
-		  "publishTime": "2008-11-18T20:34:44Z"
+		  "channelTitle": "Stranger Things",
+		  "liveBroadcastContent": "none",
+		  "publishTime": "2019-06-19T17:03:11Z"
 		}
 	  },
 	  {
 		"kind": "youtube#searchResult",
-		"etag": "O0n66IK55QL_r8B9Qf2qQwcQYcQ",
+		"etag": "6U7xf_x1mFBpY2Rqx5VdfzGbgQM",
 		"id": {
 		  "kind": "youtube#video",
-		  "videoId": "MqZMscfvH7s"
+		  "videoId": "oVQi84_fqeI"
 		},
 		"snippet": {
-		  "publishedAt": "2023-04-27T13:01:29Z",
-		  "channelId": "UCQphRgAhj5UxktrQNP3WF5g",
-		  "title": "Official Teaser Trailer | Disney&#39;s Wish | Disney UK",
-		  "description": "Check out the new trailer, plus a poster and new image for Walt Disney Animation Studios' “Wish,” which opens exclusively in ...",
+		  "publishedAt": "2022-07-02T17:00:00Z",
+		  "channelId": "UCGie8GMlUo3kBKIopdvumVQ",
+		  "title": "Stranger Things - Eleven vs Vecna! - The Final Scene of Season 4, Part 1 (In Full) | Netflix",
+		  "description": "Vecna Vs. Eleven! Season 4 Part 2 is now streaming. Discuss your theories for Season 5 below #StrangerThings ...",
 		  "thumbnails": {
 			"default": {
-			  "url": "https://i.ytimg.com/vi/MqZMscfvH7s/default.jpg",
+			  "url": "https://i.ytimg.com/vi/oVQi84_fqeI/default.jpg",
 			  "width": 120,
 			  "height": 90
 			},
 			"medium": {
-			  "url": "https://i.ytimg.com/vi/MqZMscfvH7s/mqdefault.jpg",
+			  "url": "https://i.ytimg.com/vi/oVQi84_fqeI/mqdefault.jpg",
 			  "width": 320,
 			  "height": 180
 			},
 			"high": {
-			  "url": "https://i.ytimg.com/vi/MqZMscfvH7s/hqdefault.jpg",
+			  "url": "https://i.ytimg.com/vi/oVQi84_fqeI/hqdefault.jpg",
 			  "width": 480,
 			  "height": 360
 			}
 		  },
-		  "channelTitle": "Disney UK",
+		  "channelTitle": "Still Watching Netflix",
 		  "liveBroadcastContent": "none",
-		  "publishTime": "2023-04-27T13:01:29Z"
+		  "publishTime": "2022-07-02T17:00:00Z"
 		}
 	  },
 	  {
 		"kind": "youtube#searchResult",
-		"etag": "bebbsaB_a9d_cVSvp0G1Wjicfhc",
+		"etag": "LG3JdXzVZBSICt1b2h4cin3QsiI",
 		"id": {
 		  "kind": "youtube#video",
-		  "videoId": "gh1sZEvdBJg"
+		  "videoId": "N9vAtlWSiok"
 		},
 		"snippet": {
-		  "publishedAt": "2023-06-13T16:32:37Z",
-		  "channelId": "UCP6nJ-Elnfnpjv6HQRsv1Cw",
-		  "title": "Elio | Teaser Trailer Dublado",
-		  "description": "O universo convocou... a pessoa errada. Veja o novo trailer de #Elio, da Disney e Pixar, em breve nos cinemas.",
+		  "publishedAt": "2022-06-02T03:49:57Z",
+		  "channelId": "UCS85ZtU_uiMh7NS8t0eJZ1Q",
+		  "title": "Fred Benson Death Scene Stranger Things Season 4 HD",
+		  "description": "strangerthingsseason4 #strangerthings4 #strangerthingsseason4 Media RIghts: @Netflix NOTE: Copyright Disclaimer Under ...",
 		  "thumbnails": {
 			"default": {
-			  "url": "https://i.ytimg.com/vi/gh1sZEvdBJg/default.jpg",
+			  "url": "https://i.ytimg.com/vi/N9vAtlWSiok/default.jpg",
 			  "width": 120,
 			  "height": 90
 			},
 			"medium": {
-			  "url": "https://i.ytimg.com/vi/gh1sZEvdBJg/mqdefault.jpg",
+			  "url": "https://i.ytimg.com/vi/N9vAtlWSiok/mqdefault.jpg",
 			  "width": 320,
 			  "height": 180
 			},
 			"high": {
-			  "url": "https://i.ytimg.com/vi/gh1sZEvdBJg/hqdefault.jpg",
+			  "url": "https://i.ytimg.com/vi/N9vAtlWSiok/hqdefault.jpg",
 			  "width": 480,
 			  "height": 360
 			}
 		  },
-		  "channelTitle": "Walt Disney Studios BR",
+		  "channelTitle": "Mr Strange",
 		  "liveBroadcastContent": "none",
-		  "publishTime": "2023-06-13T16:32:37Z"
+		  "publishTime": "2022-06-02T03:49:57Z"
 		}
 	  },
 	  {
 		"kind": "youtube#searchResult",
-		"etag": "HptatKdetNE9ADT8cA0VpZDnWrI",
+		"etag": "2QV2umUQhX6Sz_9oUHFs9178Yv8",
 		"id": {
 		  "kind": "youtube#video",
-		  "videoId": "bzHMAXqFFvc"
+		  "videoId": "F0hXzHDlrdU"
 		},
 		"snippet": {
-		  "publishedAt": "2023-09-19T16:00:09Z",
-		  "channelId": "UCIrgJInjLS2BhlHOMDW7v0g",
-		  "title": "Percy Jackson and The Olympians | Teaser | Disney+",
-		  "description": "Percy Jackson & The Olympians tells the fantastical story of a 12-year-old modern demigod, Percy Jackson, who's just coming to ...",
+		  "publishedAt": "2022-08-11T14:16:04Z",
+		  "channelId": "UCyOmzp5oIX2XOkOdLnQyHXw",
+		  "title": "1 Hour of Stranger Things TikToks",
+		  "description": "1 Hour of Stranger Things TikToks thank you so much for watching! this is a 1 hour compilation about netflix's stranger things ...",
 		  "thumbnails": {
 			"default": {
-			  "url": "https://i.ytimg.com/vi/bzHMAXqFFvc/default.jpg",
+			  "url": "https://i.ytimg.com/vi/F0hXzHDlrdU/default.jpg",
 			  "width": 120,
 			  "height": 90
 			},
 			"medium": {
-			  "url": "https://i.ytimg.com/vi/bzHMAXqFFvc/mqdefault.jpg",
+			  "url": "https://i.ytimg.com/vi/F0hXzHDlrdU/mqdefault.jpg",
 			  "width": 320,
 			  "height": 180
 			},
 			"high": {
-			  "url": "https://i.ytimg.com/vi/bzHMAXqFFvc/hqdefault.jpg",
+			  "url": "https://i.ytimg.com/vi/F0hXzHDlrdU/hqdefault.jpg",
 			  "width": 480,
 			  "height": 360
 			}
 		  },
-		  "channelTitle": "Disney Plus",
+		  "channelTitle": "TikTok Spree",
 		  "liveBroadcastContent": "none",
-		  "publishTime": "2023-09-19T16:00:09Z"
+		  "publishTime": "2022-08-11T14:16:04Z"
 		}
 	  },
 	  {
 		"kind": "youtube#searchResult",
-		"etag": "pWutHbEteRXlnVKR6GarYJYhou4",
+		"etag": "GEKId0E0MijO23Xue3LSB0olhfw",
 		"id": {
 		  "kind": "youtube#video",
-		  "videoId": "SOP5v53DD74"
+		  "videoId": "4DMUy20QfdM"
 		},
 		"snippet": {
-		  "publishedAt": "2023-07-25T14:30:21Z",
-		  "channelId": "UCVSo1xVSPS_CyZnswCjpEyQ",
-		  "title": "MOANA Live Action - Official Trailer (2024) Zendaya, Dwayne Johnson | Disney+",
-		  "description": "MOANA Live Action - Official Trailer (2024) Zendaya, Dwayne Johnson | Disney+ #disney #moana #dwanejohnson #zendaya ...",
+		  "publishedAt": "2022-07-04T07:04:32Z",
+		  "channelId": "UCik3WoHN7xsashdRMX8XAqA",
+		  "title": "Running Up That Hill Vol 2 Scene | Stranger Things 4",
+		  "description": "Stranger Things Season 4 Volume 2 (2022) Scene: Phase Four of the Plan \"Running Up That Hill\" by Kate Bush (Hopper vs.",
 		  "thumbnails": {
 			"default": {
-			  "url": "https://i.ytimg.com/vi/SOP5v53DD74/default.jpg",
+			  "url": "https://i.ytimg.com/vi/4DMUy20QfdM/default.jpg",
 			  "width": 120,
 			  "height": 90
 			},
 			"medium": {
-			  "url": "https://i.ytimg.com/vi/SOP5v53DD74/mqdefault.jpg",
+			  "url": "https://i.ytimg.com/vi/4DMUy20QfdM/mqdefault.jpg",
 			  "width": 320,
 			  "height": 180
 			},
 			"high": {
-			  "url": "https://i.ytimg.com/vi/SOP5v53DD74/hqdefault.jpg",
+			  "url": "https://i.ytimg.com/vi/4DMUy20QfdM/hqdefault.jpg",
 			  "width": 480,
 			  "height": 360
 			}
 		  },
-		  "channelTitle": "Cinematic Pro Studio",
+		  "channelTitle": "Nerd Clips HD",
 		  "liveBroadcastContent": "none",
-		  "publishTime": "2023-07-25T14:30:21Z"
+		  "publishTime": "2022-07-04T07:04:32Z"
+		}
+	  },
+	  {
+		"kind": "youtube#searchResult",
+		"etag": "VMWi6g2jsZxbPkyhR9_Xq4cGqII",
+		"id": {
+		  "kind": "youtube#video",
+		  "videoId": "PmwvHzEG1Vc"
+		},
+		"snippet": {
+		  "publishedAt": "2020-03-20T07:00:05Z",
+		  "channelId": "UCJ0uqCI0Vqr2Rrt1HseGirg",
+		  "title": "Carpool Karaoke: The Series - &#39;Stranger Things&#39; Cast - Apple TV app",
+		  "description": "Hop in with the cast of Netflix's \"Stranger Things\", for this week's episode of Carpool Karaoke: The Series! Watch the full episode ...",
+		  "thumbnails": {
+			"default": {
+			  "url": "https://i.ytimg.com/vi/PmwvHzEG1Vc/default.jpg",
+			  "width": 120,
+			  "height": 90
+			},
+			"medium": {
+			  "url": "https://i.ytimg.com/vi/PmwvHzEG1Vc/mqdefault.jpg",
+			  "width": 320,
+			  "height": 180
+			},
+			"high": {
+			  "url": "https://i.ytimg.com/vi/PmwvHzEG1Vc/hqdefault.jpg",
+			  "width": 480,
+			  "height": 360
+			}
+		  },
+		  "channelTitle": "The Late Late Show with James Corden",
+		  "liveBroadcastContent": "none",
+		  "publishTime": "2020-03-20T07:00:05Z"
+		}
+	  },
+	  {
+		"kind": "youtube#searchResult",
+		"etag": "QFNWvSrHM0CxZ8Rw1lvnDy7NtDY",
+		"id": {
+		  "kind": "youtube#video",
+		  "videoId": "-6OFqkemd4c"
+		},
+		"snippet": {
+		  "publishedAt": "2019-11-06T17:00:01Z",
+		  "channelId": "UChmpTxQ0Gp8KEJKsqzeg9Lg",
+		  "title": "Stranger Things Season 3 Bloopers | Netflix",
+		  "description": "We declare this the day FULL OF bloopers. Stranger Things Season 3 bloopers have arrived! (Pssst, this is the line David Harbour ...",
+		  "thumbnails": {
+			"default": {
+			  "url": "https://i.ytimg.com/vi/-6OFqkemd4c/default.jpg",
+			  "width": 120,
+			  "height": 90
+			},
+			"medium": {
+			  "url": "https://i.ytimg.com/vi/-6OFqkemd4c/mqdefault.jpg",
+			  "width": 320,
+			  "height": 180
+			},
+			"high": {
+			  "url": "https://i.ytimg.com/vi/-6OFqkemd4c/hqdefault.jpg",
+			  "width": 480,
+			  "height": 360
+			}
+		  },
+		  "channelTitle": "Stranger Things",
+		  "liveBroadcastContent": "none",
+		  "publishTime": "2019-11-06T17:00:01Z"
+		}
+	  },
+	  {
+		"kind": "youtube#searchResult",
+		"etag": "aWI8nhWJe_ARpezayl4j6xx-OTM",
+		"id": {
+		  "kind": "youtube#video",
+		  "videoId": "yXg3_-4mqN8"
+		},
+		"snippet": {
+		  "publishedAt": "2022-07-01T09:38:51Z",
+		  "channelId": "UC7EfbiJ0nLiDh6_ABcxKYpw",
+		  "title": "Stranger Things - Hopper&#39;s mall entrance | S03E08",
+		  "description": "",
+		  "thumbnails": {
+			"default": {
+			  "url": "https://i.ytimg.com/vi/yXg3_-4mqN8/default.jpg",
+			  "width": 120,
+			  "height": 90
+			},
+			"medium": {
+			  "url": "https://i.ytimg.com/vi/yXg3_-4mqN8/mqdefault.jpg",
+			  "width": 320,
+			  "height": 180
+			},
+			"high": {
+			  "url": "https://i.ytimg.com/vi/yXg3_-4mqN8/hqdefault.jpg",
+			  "width": 480,
+			  "height": 360
+			}
+		  },
+		  "channelTitle": "xChris",
+		  "liveBroadcastContent": "none",
+		  "publishTime": "2022-07-01T09:38:51Z"
+		}
+	  },
+	  {
+		"kind": "youtube#searchResult",
+		"etag": "aJEPYTNFW6vAPdYcv6OfifIkCcg",
+		"id": {
+		  "kind": "youtube#video",
+		  "videoId": "StrWcKbZLYQ"
+		},
+		"snippet": {
+		  "publishedAt": "2022-08-25T00:45:21Z",
+		  "channelId": "UCbBitfMBXp1GZBNaiNp9rTw",
+		  "title": "Stranger things4: demogorgon prison fight scene HD",
+		  "description": "Stranger things season 4. #strangerthings #demogorgon.",
+		  "thumbnails": {
+			"default": {
+			  "url": "https://i.ytimg.com/vi/StrWcKbZLYQ/default.jpg",
+			  "width": 120,
+			  "height": 90
+			},
+			"medium": {
+			  "url": "https://i.ytimg.com/vi/StrWcKbZLYQ/mqdefault.jpg",
+			  "width": 320,
+			  "height": 180
+			},
+			"high": {
+			  "url": "https://i.ytimg.com/vi/StrWcKbZLYQ/hqdefault.jpg",
+			  "width": 480,
+			  "height": 360
+			}
+		  },
+		  "channelTitle": "Tigermovieclips ",
+		  "liveBroadcastContent": "none",
+		  "publishTime": "2022-08-25T00:45:21Z"
+		}
+	  },
+	  {
+		"kind": "youtube#searchResult",
+		"etag": "GEy_gxWaiv9Iqip57hcBhA-R3yY",
+		"id": {
+		  "kind": "youtube#video",
+		  "videoId": "xF4SLslCzcg"
+		},
+		"snippet": {
+		  "publishedAt": "2019-07-15T19:37:58Z",
+		  "channelId": "UCik3WoHN7xsashdRMX8XAqA",
+		  "title": "Eleven vs. Mind Flayer | Stranger Things 3",
+		  "description": "Stranger Things Season 3 Episode 7 (2019) Chapter Seven: The Bite Scene: Eleven vs. The Mind Flayer (Cabin Fight) Episode ...",
+		  "thumbnails": {
+			"default": {
+			  "url": "https://i.ytimg.com/vi/xF4SLslCzcg/default.jpg",
+			  "width": 120,
+			  "height": 90
+			},
+			"medium": {
+			  "url": "https://i.ytimg.com/vi/xF4SLslCzcg/mqdefault.jpg",
+			  "width": 320,
+			  "height": 180
+			},
+			"high": {
+			  "url": "https://i.ytimg.com/vi/xF4SLslCzcg/hqdefault.jpg",
+			  "width": 480,
+			  "height": 360
+			}
+		  },
+		  "channelTitle": "Nerd Clips HD",
+		  "liveBroadcastContent": "none",
+		  "publishTime": "2019-07-15T19:37:58Z"
+		}
+	  },
+	  {
+		"kind": "youtube#searchResult",
+		"etag": "aPp8uo-9-k-8UsCMGK4gnFuITrQ",
+		"id": {
+		  "kind": "youtube#video",
+		  "videoId": "m6bgBq1dEqU"
+		},
+		"snippet": {
+		  "publishedAt": "2023-12-21T13:50:38Z",
+		  "channelId": "UCDMktNfQd0QiMQgJippiHEw",
+		  "title": "Stranger Things 5: Final Season | Trailer | Goodbye Hawkins | Netflix | TeaserPRO&#39;s Concept Version",
+		  "description": "StrangerThings #StrangerThings5 #Netflix A fifth season of \"Stranger Things\" is expected in 2024. Actor David Harbour told GQ ...",
+		  "thumbnails": {
+			"default": {
+			  "url": "https://i.ytimg.com/vi/m6bgBq1dEqU/default.jpg",
+			  "width": 120,
+			  "height": 90
+			},
+			"medium": {
+			  "url": "https://i.ytimg.com/vi/m6bgBq1dEqU/mqdefault.jpg",
+			  "width": 320,
+			  "height": 180
+			},
+			"high": {
+			  "url": "https://i.ytimg.com/vi/m6bgBq1dEqU/hqdefault.jpg",
+			  "width": 480,
+			  "height": 360
+			}
+		  },
+		  "channelTitle": "Teaser PRO",
+		  "liveBroadcastContent": "none",
+		  "publishTime": "2023-12-21T13:50:38Z"
+		}
+	  },
+	  {
+		"kind": "youtube#searchResult",
+		"etag": "GHisFg-cEfg4Coktx7xe7KQeaME",
+		"id": {
+		  "kind": "youtube#video",
+		  "videoId": "yXnk3n-qNrI"
+		},
+		"snippet": {
+		  "publishedAt": "2022-07-02T20:00:00Z",
+		  "channelId": "UChmpTxQ0Gp8KEJKsqzeg9Lg",
+		  "title": "Stranger Things 4 | Eddie Munson&#39;s Upside Down Guitar Scene | Netflix",
+		  "description": "Eddie Munson absolutely shredding on the guitar in the Upside Down? Consider my ticket bought. Stranger Things 4 Volume 2 is ...",
+		  "thumbnails": {
+			"default": {
+			  "url": "https://i.ytimg.com/vi/yXnk3n-qNrI/default.jpg",
+			  "width": 120,
+			  "height": 90
+			},
+			"medium": {
+			  "url": "https://i.ytimg.com/vi/yXnk3n-qNrI/mqdefault.jpg",
+			  "width": 320,
+			  "height": 180
+			},
+			"high": {
+			  "url": "https://i.ytimg.com/vi/yXnk3n-qNrI/hqdefault.jpg",
+			  "width": 480,
+			  "height": 360
+			}
+		  },
+		  "channelTitle": "Stranger Things",
+		  "liveBroadcastContent": "none",
+		  "publishTime": "2022-07-02T20:00:00Z"
+		}
+	  },
+	  {
+		"kind": "youtube#searchResult",
+		"etag": "7i9G62Pn5VHkj9RuGKd1WgH_GlQ",
+		"id": {
+		  "kind": "youtube#video",
+		  "videoId": "4PGDSsB6Nfs"
+		},
+		"snippet": {
+		  "publishedAt": "2022-08-13T14:00:07Z",
+		  "channelId": "UCev28W8ByDSnzSfoDt8qo4A",
+		  "title": "Stranger Things - Ultimate Album Mix",
+		  "description": "00:00 - Kids 02:31 - Kids Two 05:10 - Teens 07:09 - Biking to School 07:46 - First Kiss 09:24 - The First Lie 10:40 - Walkin in ...",
+		  "thumbnails": {
+			"default": {
+			  "url": "https://i.ytimg.com/vi/4PGDSsB6Nfs/default.jpg",
+			  "width": 120,
+			  "height": 90
+			},
+			"medium": {
+			  "url": "https://i.ytimg.com/vi/4PGDSsB6Nfs/mqdefault.jpg",
+			  "width": 320,
+			  "height": 180
+			},
+			"high": {
+			  "url": "https://i.ytimg.com/vi/4PGDSsB6Nfs/hqdefault.jpg",
+			  "width": 480,
+			  "height": 360
+			}
+		  },
+		  "channelTitle": "Remix: Movie Themes",
+		  "liveBroadcastContent": "none",
+		  "publishTime": "2022-08-13T14:00:07Z"
+		}
+	  },
+	  {
+		"kind": "youtube#searchResult",
+		"etag": "qmP39anxwfOYM3QsRl9XufXZBlM",
+		"id": {
+		  "kind": "youtube#video",
+		  "videoId": "_EvMYEfF_hQ"
+		},
+		"snippet": {
+		  "publishedAt": "2017-11-21T17:00:22Z",
+		  "channelId": "UCftwRNsjfRo08xYE31tkiyw",
+		  "title": "Stranger Things Cast Answer the Web&#39;s Most Searched Questions | WIRED",
+		  "description": "Stranger Things stars Gaten Matarazzo and Joe Keery take the WIRED Autocomplete Interview and answer the Internet's most ...",
+		  "thumbnails": {
+			"default": {
+			  "url": "https://i.ytimg.com/vi/_EvMYEfF_hQ/default.jpg",
+			  "width": 120,
+			  "height": 90
+			},
+			"medium": {
+			  "url": "https://i.ytimg.com/vi/_EvMYEfF_hQ/mqdefault.jpg",
+			  "width": 320,
+			  "height": 180
+			},
+			"high": {
+			  "url": "https://i.ytimg.com/vi/_EvMYEfF_hQ/hqdefault.jpg",
+			  "width": 480,
+			  "height": 360
+			}
+		  },
+		  "channelTitle": "WIRED",
+		  "liveBroadcastContent": "none",
+		  "publishTime": "2017-11-21T17:00:22Z"
+		}
+	  },
+	  {
+		"kind": "youtube#searchResult",
+		"etag": "IeXOqjJm0ZIxUh6PRqa9kLsBZ9o",
+		"id": {
+		  "kind": "youtube#video",
+		  "videoId": "ermJ-iPg9xA"
+		},
+		"snippet": {
+		  "publishedAt": "2022-07-10T17:00:00Z",
+		  "channelId": "UCGie8GMlUo3kBKIopdvumVQ",
+		  "title": "The Final Scene of Stranger Things 4 Volume 2 (Full) | Netflix",
+		  "description": "Let the Stranger Things Season 5 theories commence! #StrangerThings ➡️SUBSCRIBE FOR MORE: http://bit.ly/29kBByr ...",
+		  "thumbnails": {
+			"default": {
+			  "url": "https://i.ytimg.com/vi/ermJ-iPg9xA/default.jpg",
+			  "width": 120,
+			  "height": 90
+			},
+			"medium": {
+			  "url": "https://i.ytimg.com/vi/ermJ-iPg9xA/mqdefault.jpg",
+			  "width": 320,
+			  "height": 180
+			},
+			"high": {
+			  "url": "https://i.ytimg.com/vi/ermJ-iPg9xA/hqdefault.jpg",
+			  "width": 480,
+			  "height": 360
+			}
+		  },
+		  "channelTitle": "Still Watching Netflix",
+		  "liveBroadcastContent": "none",
+		  "publishTime": "2022-07-10T17:00:00Z"
 		}
 	  }
 	]
