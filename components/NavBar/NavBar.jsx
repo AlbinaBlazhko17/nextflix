@@ -1,14 +1,16 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import ExpandMoreIcon from '@/public/static/expand_more.svg';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import { magic } from '@/lib/magic-client';
 
 import styles from './NavBar.module.scss';
 
-function NavBar({ username }) {
+function NavBar() {
 	const [showDropdown, setShowDropdown] = useState(false);
+	const [username, setUsername] = useState(localStorage.getItem('email') || '');
 	const router = useRouter();
 
 	function handleOnClickHome(e) {
@@ -26,6 +28,27 @@ function NavBar({ username }) {
 		setShowDropdown(!showDropdown);
 	}
 
+	function handleSignOut(e) {
+		e.preventDefault();
+		localStorage.removeItem('email');
+		magic.user.logout().then(() => {
+			router.push('/login');
+		});
+	}
+
+	useEffect(() => {
+		try {
+			(async () => {
+				const data = await magic.user.getMetadata();
+				if (data.email) {
+					setUsername(data.email);
+				}
+			})();
+		} catch (error) {
+			console.error(error);
+		}
+	}, []);
+
 	return (
 		<div className={styles.navbar}>
 			<div className={styles.navbar__wrapper}>
@@ -34,7 +57,12 @@ function NavBar({ username }) {
 						href="/"
 						className={styles.navbar__logoLink}
 					>
-						Nextflix
+						<Image
+							src="/static/logo.svg"
+							width={250}
+							height={100}
+							alt="logo"
+						/>
 					</a>
 				</div>
 				<ul className={styles.navbar__list}>
@@ -75,9 +103,12 @@ function NavBar({ username }) {
 								transition={{ duration: 0.2 }}
 								className={styles.navbar__dropdown}
 							>
-								<Link href="/login">
-									<a className={styles.navbar__sign}>Sign out</a>
-								</Link>
+								<a
+									className={styles.navbar__sign}
+									onClick={handleSignOut}
+								>
+									Sign out
+								</a>
 								<div className={styles.navbar__line}></div>
 							</motion.div>
 						)}

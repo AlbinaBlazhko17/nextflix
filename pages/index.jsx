@@ -36,7 +36,7 @@ export default function Home({ disneyVideos, productivityVideos, travelVideos, p
 				/>
 			</Head>
 
-			<NavBar username="albina@gmail.com" />
+			<NavBar />
 			<Banner
 				title="Title"
 				subtitle="Subtitle"

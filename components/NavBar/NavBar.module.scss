@@ -9,26 +9,16 @@
 	width: 100%;
 	z-index: 50;
 	&__wrapper {
-		padding-left: 1rem /* 16px */;
-		padding-right: 1rem /* 16px */;
 		display: flex;
-		padding: 1.25rem /* 20px */;
+		padding: 0.5rem;
 		align-items: center;
 		justify-content: center;
-	}
-	&__logo {
-		font-size: 2rem;
-		color: $red;
-		display: flex;
 	}
 
 	&__logoLink {
 		display: flex;
-		font-weight: 800;
-		font-size: 3rem;
 		align-items: center;
 		margin-bottom: 1rem /* 16px */;
-		letter-spacing: 0.15rem;
 	}
 
 	&__list {
@@ -118,8 +108,8 @@
 	}
 
 	@media (min-width: 768px) {
-		padding-left: 4rem /* 64px */;
-		padding-right: 4rem /* 64px */;
+		padding-left: 2rem /* 64px */;
+		padding-right: 2rem /* 64px */;
 		flex-direction: row;
 		align-items: center;
 
