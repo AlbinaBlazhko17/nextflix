@@ -1,5 +1,4 @@
 import { useRouter } from 'next/router';
-import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import ExpandMoreIcon from '@/public/static/expand_more.svg';
 import Image from 'next/image';
@@ -39,12 +38,13 @@ function NavBar() {
 	useEffect(() => {
 		try {
 			(async () => {
-				const data = await magic.user.getMetadata();
+				const data = await magic.user.getInfo();
 				if (data.email) {
 					setUsername(data.email);
 				}
 			})();
 		} catch (error) {
+			router.push('/login');
 			console.error(error);
 		}
 	}, []);
