@@ -71,13 +71,12 @@
 	}
 
 	&__sidebar {
-		height: 5vh;
 		display: flex;
 		justify-content: flex-start;
-		align-items: center;
 		overflow-wrap: break-word;
 		font-size: 0.875rem /* 14px */;
 		line-height: 1.25rem /* 20px */;
+		margin-bottom: 20px;
 	}
 
 	&__subtitle {
