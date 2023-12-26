@@ -19,7 +19,7 @@
 		width: 800px;
 		bottom: 40px;
 		background-color: $black40;
-		top: 10%;
+		top: 15%;
 	  
 		outline: none;
 		border-radius: 10px;
@@ -40,7 +40,7 @@
 		grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
 		gap: 2rem;
 		&__wrapper {
-			max-height: 35vh /* 208px */;
+			max-height: 30vh /* 208px */;
 			overflow-y: scroll;
 		}
 		&:last-child {

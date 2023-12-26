@@ -2,6 +2,7 @@ import styles from '@/styles/Video.module.scss';
 import { useRouter } from 'next/router';
 import Modal from 'react-modal';
 import { getVideoDetails } from '@/lib/videos';
+import { NavBar } from '@/components';
 
 Modal.setAppElement('#__next');
 
@@ -33,6 +34,7 @@ function Video({ video }) {
 
 	return (
 		<div className={styles.modal}>
+			<NavBar />
 			<Modal
 				isOpen={true}
 				contentLabel={`Video: ${videoId}`}
