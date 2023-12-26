@@ -13,11 +13,13 @@ function SectionCards({ title, videos = [], size = 'medium' }) {
 						key={video.id}
 						href={`/video/${video.id}`}
 					>
-						<Card
-							imgUrl={video.imgUrl}
-							size={size}
-							id={index}
-						/>
+						<a>
+							<Card
+								imgUrl={video.imgUrl}
+								size={size}
+								id={index}
+							/>
+						</a>
 					</Link>
 				))}
 			</div>
