@@ -8,6 +8,8 @@
 		height: 500px;
 		min-height: 500px;
 		img {
+			border-radius: 5px;
+			transform: scale(1.4);
 			object-fit: cover;
 		}
 	}
@@ -18,6 +20,11 @@
 		min-width: 280px;
 		height: 350px;
 		min-height: 350px;
+		img {
+			border-radius: 5px;
+			transform: scale(1.4);
+			object-fit: cover;
+		}
 	}
 
 	&-small {
