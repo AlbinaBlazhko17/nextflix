@@ -39,6 +39,7 @@ function NavBar() {
 		try {
 			(async () => {
 				const data = await magic.user.getInfo();
+				const didToken = await magic.user.getIdToken();
 				if (data.email) {
 					setUsername(data.email);
 				}
