@@ -2,6 +2,7 @@ import { Banner, NavBar } from '@/components';
 import SectionCards from '@/components/Card/sectionCards/SectionCards';
 import Head from 'next/head';
 import { getVideos } from '@/lib/videos';
+import { startFetchMyQuery } from '@/lib/db/hasura';
 
 import styles from '../styles/Home.module.scss';
 
@@ -22,6 +23,7 @@ export async function getServerSideProps() {
 }
 
 export default function Home({ disneyVideos, productivityVideos, travelVideos, popularVideos }) {
+	startFetchMyQuery();
 	return (
 		<div className={styles.container}>
 			<Head>
