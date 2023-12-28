@@ -1,9 +1,9 @@
 import { useRouter } from 'next/router';
 import Modal from 'react-modal';
-import { getVideoDetails } from '@/lib/videos';
+import { getVideoDetails, getVideoStats } from '@/lib/videos';
 import { NavBar } from '@/components';
 import { Like, Dislike } from '@/components';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 import styles from '@/styles/Video.module.scss';
 
@@ -12,10 +12,11 @@ Modal.setAppElement('#__next');
 export async function getStaticProps(context) {
 	const videoId = context.params.videoId;
 	const videoData = await getVideoDetails(videoId);
-
+	// const favorite = await getVideoStats(videoId);
 	return {
 		props: {
 			video: videoData[0],
+			// favorite,
 		},
 		revalidate: 10,
 	};
@@ -37,6 +38,24 @@ function Video({ video }) {
 	const [toggleLike, setToggleLike] = useState(false);
 	const [toggleDislike, setToggleDislike] = useState(false);
 
+	useEffect(() => {
+		(async () => {
+			const response = await fetch(`/api/stats?videoId=${videoId}`, {
+				method: 'GET',
+				headers: {
+					'Content-Type': 'application/json',
+				},
+			});
+
+			const resData = await response.json();
+			if (resData?.findVideoById) {
+				const favoritedRating = Boolean(resData.findVideoById[0].favorited);
+				setToggleLike(favoritedRating);
+				setToggleDislike(!favoritedRating);
+			}
+		})();
+	}, [videoId]);
+
 	async function runRatingService(favorited) {
 		const response = await fetch('/api/stats', {
 			method: 'POST',
@@ -46,24 +65,26 @@ function Video({ video }) {
 			body: JSON.stringify({
 				videoId,
 				favorited,
-				dislike: false,
+				watched: true,
 			}),
 		});
-		await response.json();
+		return response;
 	}
 
 	async function handleToggleLike() {
 		setToggleDislike(false);
-		let favorited = !toggleLike ? 1 : 0;
-		setToggleLike(!toggleLike);
-		await runRatingService(favorited);
+		setToggleLike((prevState) => !prevState);
+		const response = await runRatingService(1);
+
+		await response.json();
 	}
 
 	async function handleToggleDislike() {
 		setToggleLike(false);
-		let favorited = !toggleDislike ? 0 : 1;
-		setToggleDislike(!toggleDislike);
-		await runRatingService(favorited);
+		setToggleDislike((prevState) => !prevState);
+		const response = await runRatingService(0);
+
+		await response.json();
 	}
 
 	return (
