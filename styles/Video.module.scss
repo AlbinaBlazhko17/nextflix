@@ -15,21 +15,40 @@
 		left: 0;
 		right: 0;
 		margin: 0 auto;
-	  
 		width: 800px;
 		bottom: 40px;
 		background-color: $black40;
 		top: 15%;
-	  
 		outline: none;
 		border-radius: 10px;
 		border: 2px solid $shadow10;
 	}
 
 	&__video {
+		position: relative;
 		&__iframe {
 			border-radius: 10px 10px 0 0;
 			box-shadow: 0px 0px 40px 16px rgba(255,36,36,0.5);
+		}
+	}
+
+	&__buttons {
+		position: absolute;
+		top: 70%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 1rem 2rem;
+		width: 25%;
+		&-item {
+			border-color: var(--white10);
+			border-style: solid;
+			border-width: 2px;
+			background-color: var(--gray40);
+			border-radius: 9999px;
+			padding: 0.5rem /* 8px */;
+			display: flex;
+			justify-content: center;
 		}
 	}
 

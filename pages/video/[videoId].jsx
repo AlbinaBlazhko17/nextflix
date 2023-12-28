@@ -1,8 +1,11 @@
-import styles from '@/styles/Video.module.scss';
 import { useRouter } from 'next/router';
 import Modal from 'react-modal';
 import { getVideoDetails } from '@/lib/videos';
 import { NavBar } from '@/components';
+import { Like, Dislike } from '@/components';
+import { useState } from 'react';
+
+import styles from '@/styles/Video.module.scss';
 
 Modal.setAppElement('#__next');
 
@@ -31,6 +34,18 @@ export async function getStaticPaths() {
 function Video({ video }) {
 	const router = useRouter();
 	const { videoId } = router.query;
+	const [toggleLike, setToggleLike] = useState(false);
+	const [toggleDislike, setToggleDislike] = useState(false);
+
+	function handleToggleLike() {
+		setToggleDislike(false);
+		setToggleLike(!toggleLike);
+	}
+
+	function handleToggleDislike() {
+		setToggleLike(false);
+		setToggleDislike(!toggleDislike);
+	}
 
 	return (
 		<div className={styles.modal}>
@@ -52,6 +67,20 @@ function Video({ video }) {
 						src={`http://www.youtube.com/embed/${videoId}?enablejsapi=1&origin=http://example.com&controls=0&rel=1`}
 						frameBorder="0"
 					></iframe>
+					<div className={styles.modal__buttons}>
+						<button
+							className={styles['modal__buttons-item']}
+							onClick={handleToggleLike}
+						>
+							<Like selected={toggleLike} />
+						</button>
+						<button
+							className={styles['modal__buttons-item']}
+							onClick={handleToggleDislike}
+						>
+							<Dislike selected={toggleDislike} />
+						</button>
+					</div>
 				</div>
 				<div className={styles.modal__body}>
 					<div className={styles.modal__body__wrapper}>
