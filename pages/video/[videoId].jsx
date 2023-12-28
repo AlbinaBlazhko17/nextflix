@@ -37,14 +37,33 @@ function Video({ video }) {
 	const [toggleLike, setToggleLike] = useState(false);
 	const [toggleDislike, setToggleDislike] = useState(false);
 
-	function handleToggleLike() {
-		setToggleDislike(false);
-		setToggleLike(!toggleLike);
+	async function runRatingService(favorited) {
+		const response = await fetch('/api/stats', {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json',
+			},
+			body: JSON.stringify({
+				videoId,
+				favorited,
+				dislike: false,
+			}),
+		});
+		await response.json();
 	}
 
-	function handleToggleDislike() {
+	async function handleToggleLike() {
+		setToggleDislike(false);
+		let favorited = !toggleLike ? 1 : 0;
+		setToggleLike(!toggleLike);
+		await runRatingService(favorited);
+	}
+
+	async function handleToggleDislike() {
 		setToggleLike(false);
+		let favorited = !toggleDislike ? 0 : 1;
 		setToggleDislike(!toggleDislike);
+		await runRatingService(favorited);
 	}
 
 	return (
