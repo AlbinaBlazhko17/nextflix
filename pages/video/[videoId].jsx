@@ -1,9 +1,8 @@
+import { Dislike, Like, NavBar } from '@/components';
+import { getVideoDetails } from '@/lib/videos';
 import { useRouter } from 'next/router';
+import { useEffect, useState } from 'react';
 import Modal from 'react-modal';
-import { getVideoDetails, getVideoStats } from '@/lib/videos';
-import { NavBar } from '@/components';
-import { Like, Dislike } from '@/components';
-import { useState, useEffect } from 'react';
 
 import styles from '@/styles/Video.module.scss';
 
@@ -12,11 +11,9 @@ Modal.setAppElement('#__next');
 export async function getStaticProps(context) {
 	const videoId = context.params.videoId;
 	const videoData = await getVideoDetails(videoId);
-	// const favorite = await getVideoStats(videoId);
 	return {
 		props: {
 			video: videoData[0],
-			// favorite,
 		},
 		revalidate: 10,
 	};
