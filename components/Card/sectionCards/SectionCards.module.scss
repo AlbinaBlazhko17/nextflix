@@ -18,5 +18,11 @@
 		margin-right: 0.75rem /* 12px */;
 		overflow-x: scroll;
 		overflow-y: hidden;
+		&-nowrap {
+			justify-content: center;
+			row-gap: 20px;
+			flex-wrap: wrap;
+			overflow-x: visible;
+		}
 	}
 }

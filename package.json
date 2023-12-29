@@ -10,6 +10,7 @@
 	},
 	"dependencies": {
 		"@magic-sdk/admin": "^2.0.1",
+		"classnames": "^2.5.0",
 		"cookie": "^0.6.0",
 		"cookies": "^0.8.0",
 		"eslint-config-prettier": "^9.1.0",

@@ -19,7 +19,7 @@ function NavBar() {
 
 	function handleOnClickMyList(e) {
 		e.preventDefault();
-		router.push('/my-list');
+		router.push('/browse/my-list');
 	}
 
 	function handleToogleDropdown(e) {
@@ -39,7 +39,6 @@ function NavBar() {
 		try {
 			(async () => {
 				const data = await magic.user.getInfo();
-				const didToken = await magic.user.getIdToken();
 				if (data.email) {
 					setUsername(data.email);
 				}

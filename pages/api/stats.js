@@ -34,7 +34,7 @@ export default async function stats(req, res) {
 				});
 			} else {
 				const newStats = await createNewStats(token, {
-					favorited: 0,
+					favorited,
 					watched: false,
 					videoId,
 					userId: userId,

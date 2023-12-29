@@ -1,14 +1,12 @@
-import { Banner, NavBar } from '@/components';
-import SectionCards from '@/components/Card/sectionCards/SectionCards';
+import { Banner, NavBar, SectionCards } from '@/components';
 import { getVideos, getWatchItAgainVideos } from '@/lib/videos';
-import { redirectUser } from '@/utils/redirectUser';
+import { getUserIdAndToken } from '@/utils/getUserIdAndToken';
 import Head from 'next/head';
 
 import styles from '../styles/Home.module.scss';
 
 export async function getServerSideProps(context) {
-	const token = context.req ? context.req.cookies.token : null;
-	const userId = await redirectUser(token);
+	const { userId, token } = await getUserIdAndToken(context);
 
 	if (!userId) {
 		return {
