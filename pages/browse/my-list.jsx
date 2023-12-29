@@ -1,4 +1,4 @@
-import { NavBar, SectionCards } from '@/components/index';
+import { NavBar, SectionCards } from 'components/index';
 import Head from 'next/head';
 import { getMyListVideos } from '@/lib/videos';
 import { getUserIdAndToken } from '@/utils/getUserIdAndToken';

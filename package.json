@@ -17,6 +17,7 @@
 		"eslint-plugin-prettier": "^5.1.0",
 		"eslint-plugin-react-hooks": "^4.6.0",
 		"framer-motion": "^10.16.16",
+		"jose": "^5.2.0",
 		"jsonwebtoken": "^9.0.2",
 		"magic-sdk": "^21.4.1",
 		"next": "^12.3.4",

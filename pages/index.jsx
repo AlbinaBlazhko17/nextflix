@@ -8,15 +8,6 @@ import styles from '../styles/Home.module.scss';
 export async function getServerSideProps(context) {
 	const { userId, token } = await getUserIdAndToken(context);
 
-	if (!userId) {
-		return {
-			props: {},
-			redirect: {
-				destination: '/login',
-				permanent: false,
-			},
-		};
-	}
 	const disneyVideos = await getVideos('disney trailer');
 	const productivityVideos = await getVideos('productivity');
 	const travelVideos = await getVideos('travel');

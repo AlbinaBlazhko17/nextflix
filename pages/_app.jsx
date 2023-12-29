@@ -1,24 +1,12 @@
-import { magic } from '@/lib/magic-client';
+import { Loading } from '@/components';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
-import { Loading } from '@/components';
 
 import '@/styles/globals.scss';
 
 function MyApp({ Component, pageProps }) {
 	const router = useRouter();
 	const [isLoading, setIsLoading] = useState(false);
-
-	useEffect(() => {
-		// (async () => {
-		// 	const isLoggedIn = await magic.user.isLoggedIn();
-		// 	if (isLoggedIn) {
-		// 		router.replace('/');
-		// 	} else {
-		// 		router.replace('/login');
-		// 	}
-		// })();
-	}, []);
 
 	useEffect(() => {
 		const handleStart = () => {
