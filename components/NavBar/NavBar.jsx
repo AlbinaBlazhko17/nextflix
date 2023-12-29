@@ -10,6 +10,7 @@ import styles from './NavBar.module.scss';
 function NavBar() {
 	const [showDropdown, setShowDropdown] = useState(false);
 	const [username, setUsername] = useState('');
+	const [DIDToken, setDIDToken] = useState('');
 	const router = useRouter();
 
 	function handleOnClickHome(e) {
@@ -27,20 +28,33 @@ function NavBar() {
 		setShowDropdown(!showDropdown);
 	}
 
-	function handleSignOut(e) {
+	async function handleSignOut(e) {
 		e.preventDefault();
-		localStorage.removeItem('email');
-		magic.user.logout().then(() => {
-			router.push('/login');
-		});
+
+		try {
+			const response = await fetch('/api/logout', {
+				method: 'POST',
+				headers: {
+					Authorization: `Bearer ${DIDToken}`,
+					'Content-Type': 'application/json',
+				},
+			});
+
+			const res = await response.json();
+		} catch (error) {
+			console.error('Error logging out', error);
+			router.replace('/login');
+		}
 	}
 
 	useEffect(() => {
 		try {
 			(async () => {
 				const data = await magic.user.getInfo();
+				const DidToken = await magic.user.getIdToken();
 				if (data.email) {
 					setUsername(data.email);
+					setDIDToken(DidToken);
 				}
 			})();
 		} catch (error) {
