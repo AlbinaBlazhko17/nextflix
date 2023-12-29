@@ -1,15 +1,29 @@
 import { Banner, NavBar } from '@/components';
 import SectionCards from '@/components/Card/sectionCards/SectionCards';
+import { getVideos, getWatchItAgainVideos } from '@/lib/videos';
+import { redirectUser } from '@/utils/redirectUser';
 import Head from 'next/head';
-import { getVideos } from '@/lib/videos';
 
 import styles from '../styles/Home.module.scss';
 
-export async function getServerSideProps() {
+export async function getServerSideProps(context) {
+	const token = context.req ? context.req.cookies.token : null;
+	const userId = await redirectUser(token);
+
+	if (!userId) {
+		return {
+			props: {},
+			redirect: {
+				destination: '/login',
+				permanent: false,
+			},
+		};
+	}
 	const disneyVideos = await getVideos('disney trailer');
 	const productivityVideos = await getVideos('productivity');
 	const travelVideos = await getVideos('travel');
 	const popularVideos = await getVideos('popular');
+	const watchItAgain = await getWatchItAgainVideos(token, userId);
 
 	return {
 		props: {
@@ -17,12 +31,18 @@ export async function getServerSideProps() {
 			productivityVideos,
 			travelVideos,
 			popularVideos,
+			watchItAgain,
 		},
 	};
 }
 
-export default function Home({ disneyVideos, productivityVideos, travelVideos, popularVideos }) {
-	// startFetchMyQuery();
+export default function Home({
+	disneyVideos,
+	productivityVideos,
+	travelVideos,
+	popularVideos,
+	watchItAgain,
+}) {
 	return (
 		<div className={styles.container}>
 			<Head>
@@ -47,6 +67,11 @@ export default function Home({ disneyVideos, productivityVideos, travelVideos, p
 				videos={disneyVideos}
 				title="Disney"
 				size="large"
+			/>
+			<SectionCards
+				videos={watchItAgain}
+				title="Watch it again"
+				size="small"
 			/>
 			<SectionCards
 				videos={travelVideos}

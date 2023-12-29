@@ -23,6 +23,7 @@ module.exports = {
 			'@/public': path.resolve(__dirname, 'public'),
 			'@/data': path.resolve(__dirname, 'data'),
 			'@/lib': path.resolve(__dirname, 'lib'),
+			'@/utils': path.resolve(__dirname, 'utils'),
 		};
 		return config;
 	},

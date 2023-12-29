@@ -20,7 +20,7 @@ export async function getStaticProps(context) {
 }
 
 export async function getStaticPaths() {
-	const listOfVideos = ['ifgsdju4313', 'R1ZXOOLMJ8s', 'EY6BLb6-0dU'];
+	const listOfVideos = ['R1ZXOOLMJ8s', 'EY6BLb6-0dU'];
 
 	const paths = listOfVideos.map((videoId) => ({
 		params: { videoId },
