@@ -40,7 +40,7 @@ function NavBar() {
 				},
 			});
 
-			const res = await response.json();
+			await response.json();
 		} catch (error) {
 			console.error('Error logging out', error);
 			router.replace('/login');
