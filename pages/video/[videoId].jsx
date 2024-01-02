@@ -1,5 +1,5 @@
 import { Dislike, Like, NavBar } from '@/components';
-import { getVideoDetails } from '@/lib/videos';
+import { getVideoDetails, getVideosId } from '@/lib/videos';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import Modal from 'react-modal';
@@ -21,9 +21,10 @@ export async function getStaticProps(context) {
 
 export async function getStaticPaths() {
 	const listOfVideos = ['R1ZXOOLMJ8s', 'EY6BLb6-0dU'];
+	const videoIds = await getVideosId();
 
-	const paths = listOfVideos.map((videoId) => ({
-		params: { videoId },
+	const paths = [...listOfVideos, ...videoIds].map((videoId) => ({
+		params: { videoId: videoId.toString() },
 	}));
 
 	return { paths, fallback: 'blocking' };
