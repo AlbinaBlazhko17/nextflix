@@ -1,7 +1,7 @@
 import { Dislike, Like, NavBar } from '@/components';
 import { getVideoDetails, getVideosId } from '@/lib/videos';
 import { useRouter } from 'next/router';
-import { useEffect, useState } from 'react';
+import { useState, useEffect } from 'react';
 import Modal from 'react-modal';
 
 import styles from '@/styles/Video.module.scss';
@@ -11,6 +11,11 @@ Modal.setAppElement('#__next');
 export async function getStaticProps(context) {
 	const videoId = context.params.videoId;
 	const videoData = await getVideoDetails(videoId);
+	if (videoData.length === 0) {
+		return {
+			notFound: true,
+		};
+	}
 	return {
 		props: {
 			video: videoData[0],
@@ -20,11 +25,9 @@ export async function getStaticProps(context) {
 }
 
 export async function getStaticPaths() {
-	const listOfVideos = ['R1ZXOOLMJ8s', 'EY6BLb6-0dU'];
 	const videoIds = await getVideosId();
-
-	const paths = [...listOfVideos, ...videoIds].map((videoId) => ({
-		params: { videoId: videoId.toString() },
+	const paths = videoIds.map((videoId) => ({
+		params: { videoId },
 	}));
 
 	return { paths, fallback: 'blocking' };
@@ -120,23 +123,29 @@ function Video({ video }) {
 						</button>
 					</div>
 				</div>
-				<div className={styles.modal__body}>
-					<div className={styles.modal__body__wrapper}>
-						<h2 className={styles.modal__date}>{video.date.slice(0, 10)}</h2>
-						<h1 className={styles.modal__title}>{video.title}</h1>
-						<p className={styles.modal__description}>{video.description}</p>
-					</div>
-					<div>
-						<div className={styles.modal__sidebar}>
-							<h3 className={styles.modal__subtitle}>Cast: </h3>
-							<p className={styles.modal__subtext}>{video.cast}</p>
+				{video && (
+					<div className={styles.modal__body}>
+						<div className={styles.modal__body__wrapper}>
+							<h2 className={styles.modal__date}>
+								{video.date ? video.date.slice(0, 10) : ''}
+							</h2>
+							<h1 className={styles.modal__title}>{video.title}</h1>
+							<p className={styles.modal__description}>{video.description}</p>
 						</div>
-						<div className={styles.modal__sidebar}>
-							<h3 className={styles.modal__subtitle}>View count: </h3>
-							<p className={styles.modal__subtext}>{video.viewCount.viewCount}</p>
+						<div>
+							<div className={styles.modal__sidebar}>
+								<h3 className={styles.modal__subtitle}>Cast: </h3>
+								<p className={styles.modal__subtext}>{video.cast}</p>
+							</div>
+							<div className={styles.modal__sidebar}>
+								<h3 className={styles.modal__subtitle}>View count: </h3>
+								<p className={styles.modal__subtext}>
+									{video.viewCount ? video.viewCount.viewCount : 0}
+								</p>
+							</div>
 						</div>
 					</div>
-				</div>
+				)}
 			</Modal>
 		</div>
 	);
