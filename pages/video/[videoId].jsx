@@ -1,7 +1,8 @@
 import { Dislike, Like, NavBar } from '@/components';
 import { getVideoDetails, getVideosId } from '@/lib/videos';
+import Head from 'next/head';
 import { useRouter } from 'next/router';
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import Modal from 'react-modal';
 
 import styles from '@/styles/Video.module.scss';
@@ -90,6 +91,13 @@ function Video({ video }) {
 
 	return (
 		<div className={styles.modal}>
+			<Head>
+				<title>{`Nextflix | ${video ? video.title.split(' ')[1] : 'Video'}`}</title>
+				<meta
+					name="description"
+					content={(video && video.description) || 'Video'}
+				/>
+			</Head>
 			<NavBar />
 			<Modal
 				isOpen={true}

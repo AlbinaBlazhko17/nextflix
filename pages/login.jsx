@@ -89,7 +89,7 @@ function Login() {
 	return (
 		<div className={styles.login}>
 			<Head>
-				<title>Nextflix SignIn</title>
+				<title>Nextflix | Login</title>
 			</Head>
 			<header className={styles.login__wrapper}>
 				<div className={styles.login__logo}>
