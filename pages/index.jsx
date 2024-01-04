@@ -1,5 +1,5 @@
 import { Banner, NavBar, SectionCards } from '@/components';
-import { getVideos, getWatchItAgainVideos } from '@/lib/videos';
+import { getVideoDetails, getVideos, getWatchItAgainVideos } from '@/lib/videos';
 import { getUserIdAndToken } from '@/utils/getUserIdAndToken';
 import Head from 'next/head';
 
@@ -13,7 +13,7 @@ export async function getServerSideProps(context) {
 	const travelVideos = await getVideos('travel');
 	const popularVideos = await getVideos('popular');
 	const watchItAgain = await getWatchItAgainVideos(token, userId);
-
+	const BannerDetails = await getVideoDetails('b9EkMc79ZSU');
 	return {
 		props: {
 			disneyVideos,
@@ -21,6 +21,7 @@ export async function getServerSideProps(context) {
 			travelVideos,
 			popularVideos,
 			watchItAgain,
+			BannerDetails: BannerDetails[0],
 		},
 	};
 }
@@ -31,6 +32,7 @@ export default function Home({
 	travelVideos,
 	popularVideos,
 	watchItAgain,
+	BannerDetails,
 }) {
 	return (
 		<div className={styles.container}>
@@ -44,8 +46,8 @@ export default function Home({
 
 			<NavBar />
 			<Banner
-				title="Title"
-				subtitle="Subtitle"
+				title={BannerDetails.title.split('|')[0]}
+				subtitle={BannerDetails.description.slice(0, 150) + '...'}
 				videoId="b9EkMc79ZSU"
 			/>
 			<SectionCards

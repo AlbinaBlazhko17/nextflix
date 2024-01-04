@@ -25,4 +25,8 @@
 			overflow-x: visible;
 		}
 	}
+	@media screen and (max-width: 425px) {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
 }

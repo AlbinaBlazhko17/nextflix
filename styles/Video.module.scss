@@ -108,4 +108,68 @@
 		color: $white30;
 		font-size: 1.2rem;
 	}
+
+	@media screen and (max-width: 768px) {
+		&__content {
+			width: 80%;
+			height: 100vh;
+		}
+
+		&__buttons {
+			width: 50%;
+		}
+		
+		&__buttons {
+			width: 30%;
+		}
+	}
+	@media screen and (max-width: 768px) {
+		&__content {
+			width: 90%;
+		}
+
+		&__buttons {
+			width: 60%;
+		}
+		
+		&__body {
+			padding: 1rem;
+		}
+
+		&__sidebar {
+			flex-direction: column;
+		}
+
+		&__subtitle {
+			margin-bottom: 10px;
+		}
+	}
+
+	@media screen and (max-width: 425px) {
+		&__title {
+			font-size: 1.5rem /* 24px */;
+		}
+
+		&__description {
+			font-size: 1rem /* 18px */;
+		}
+
+		&__subtext {
+			font-size: 1rem;
+		}
+	}
+
+	@media screen and (max-width: 320px) {
+		&__content {
+			width: 100%;
+		}
+
+		&__buttons {
+			width: 60%;
+		}
+		
+		&__body {
+			padding: 1rem;
+		}
+	}
 }

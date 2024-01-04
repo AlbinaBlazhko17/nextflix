@@ -3,10 +3,8 @@
 	cursor: pointer;
 	&-large {
 		position: relative;
-		width: 300px;
-		min-width: 300px;
-		height: 500px;
-		min-height: 500px;
+		width: 15rem;
+		height: 25rem;
 		img {
 			border-radius: 5px;
 			object-fit: cover;
@@ -15,10 +13,8 @@
 
 	&-medium {
 		position: relative;
-		width: 280px;
-		min-width: 280px;
-		height: 350px;
-		min-height: 350px;
+		width: 20rem;
+		height: 21rem;
 		img {
 			border-radius: 5px;
 			object-fit: cover;
@@ -27,10 +23,8 @@
 
 	&-small {
 		position: relative;
-		width: 400px;
-		min-width: 400px;
-		height: 250px;
-		min-height: 250px;
+		width: 25rem;
+		height: 15rem;
 	}
 
 	&__img {
